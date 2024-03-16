@@ -11,4 +11,7 @@ A basic project to demonstrate the author's current skills. Made by HTML and CSS
 - add background image.
 - create html layout "card section".
 - setup fonts.
-- create html layout "details" (identity skills, common skills, frontend skills).
+- layout "details": add identity skills, frontend skills.
+- layout "details": add cover letter (cl).
+- layout "details": add backend skills (NodeJS, Plasma, PostgreSQL, SQLite, ExpressJS, Sciter.).
+

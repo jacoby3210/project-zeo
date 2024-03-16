@@ -133,7 +133,7 @@ body {background-image: url(../../assets/bg.jpg);}
 	justify-content: space-between;
 	align-items: center;
 
-	padding: 0 15px;
+	padding: 18px 15px;
 	height: 90dvh;
 	width: 270px;
 
@@ -169,7 +169,6 @@ body {background-image: url(../../assets/bg.jpg);}
 
 .card-avatar::after  {transform: rotate(-60deg);}
 .card-avatar::before {transform: rotate(60deg);}
-
 
 .card-bio p {
 	text-align: center;
