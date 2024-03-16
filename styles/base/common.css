@@ -32,8 +32,15 @@ html {
 	--color-menu:      #0a1833;
 }
 
-/* loader */
+/* fonts */
 
+html {
+    font-family: "Tektur", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* loader */
 
 .loader {
 	display: flex;
