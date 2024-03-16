@@ -25,9 +25,19 @@ html {
 	--color-button:    #c44f4b;
 
 	--color-loader:    #000000;
+	--color-menu:      #0a1833;
 	--color-priority:  #a7bfcbba;
 	--color-secondary: #c2cbeb;
+}
+
+html:has(.card-advanced-control-theme-state:checked) {
+	--color-accent:    #ef4141;
+	--color-button:    #096c5f;
+
+	--color-loader:	   #000000;
 	--color-menu:      #0a1833;
+	--color-priority:  #8e99b7ba;
+	--color-secondary: #ffffff;
 }
 
 /* fonts */
@@ -137,6 +147,48 @@ body {background-image: url(../../assets/bg.jpg);}
 	border-radius: 30px;
 	box-shadow: 2px 2px 4px var(--color-menu);
 	color: var(--color-accent)
+}
+
+.card-advanced-control {
+	width: 100%;
+	text-align: right;
+}
+
+.card-advanced-control-form-factor {
+	appearance: none;
+	margin: 0;
+	text-align: center;
+
+	cursor: pointer;
+}
+
+.card-advanced-control-form-factor::after{
+    font-size: small;
+	color: var(--color-accent);
+}
+
+.card-advanced-control-form-factor:not(:checked)::after {
+	text-decoration: underline; 
+}
+
+.card-advanced-control-theme-state-label {
+	font-size: small;
+}
+
+.card-advanced-control-theme-state {
+	
+	margin: 0;
+	cursor: pointer;
+
+	text-align: right;
+	vertical-align: middle;
+}
+
+.card-advanced-control-theme-state::before {
+	display: block;
+	padding: 0px 20px;
+	width: max-content;
+	color: var(--color-accent);
 }
 
 .card-avatar {

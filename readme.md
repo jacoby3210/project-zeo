@@ -14,5 +14,5 @@ A basic project to demonstrate the author's current skills. Made by HTML and CSS
 - layout "details": add identity skills, frontend skills.
 - layout "details": add cover letter (cl).
 - layout "projects": add "solution template".
+- layout "card": add control panel.
 - layout "details": add backend skills (NodeJS, Plasma, PostgreSQL, SQLite, ExpressJS, Sciter).
-- layout "details": add control.

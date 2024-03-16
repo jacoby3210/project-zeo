@@ -1,9 +1,9 @@
 /* setup content */
 
-.controls-form-factor[value="desktop"]::after{content: "desktop";}
-.controls-form-factor[value="tablet"]::after {content: "tablet";}
-.controls-form-factor[value="mobile"]::after {content: "mobile";}
-.controls-theme-state-label::before {content: "toggle theme";}
+.card-advanced-control-form-factor[value="desktop"]::after{content: "desktop";}
+.card-advanced-control-form-factor[value="tablet"]::after {content: "tablet";}
+.card-advanced-control-form-factor[value="mobile"]::after {content: "mobile";}
+.card-advanced-control-theme-state-label::before {content: "toggle theme";}
 
 .card-bio-p0::after         {content: "Hello, my name is Iacovlev Alexandr.";}
 .card-bio-p1::after         {content: "I am an web developer and UI/UX javascript specialist.";}
