@@ -12,7 +12,19 @@
 
     <link rel="stylesheet" href="styles/lang/eng.css">
     <link rel="stylesheet" href="styles/lang/rus.css">
+
+    <script>
+        window.addEventListener('load', function(){
+            const timerId = setTimeout(()=>{
+                const main = document.querySelector('main');
+                main.classList.add('loaded');
+            }, 500)
+        })
+    </script>
+
 </head>
 <body>
-    
+    <main class="viewport">
+    </main>
+    <section class="loader"></section>
 </body>
