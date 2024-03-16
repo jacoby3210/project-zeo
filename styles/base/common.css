@@ -269,7 +269,6 @@ body {background-image: url(../../assets/bg.jpg);}
     justify-content: space-between;
 }
 
-.project-caption {margin: 0.83em 0;}
 .project-caption > * {margin: 0;}
 
 .project-view {
