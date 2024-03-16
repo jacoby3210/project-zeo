@@ -71,3 +71,95 @@ html {
 
 /* main */
 
+body {background-image: url(../../assets/bg.jpg);}
+
+
+.viewport {
+	display: none;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	height: 90dvh;
+	width: min-content;
+
+	background-color: var(--color-priority);
+	border-radius: 30px;
+}
+
+.viewport.loaded {
+	display: flex;
+	animation: viewport_bounce 1.5s linear;
+	transform: translateY(5dvh);
+	will-change: contents;
+}
+
+.card {
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+
+	padding: 0 15px;
+	height: 90dvh;
+	width: 270px;
+
+	background-color: var(--color-menu);
+	border-radius: 30px;
+	box-shadow: 2px 2px 4px var(--color-menu);
+	color: var(--color-accent)
+}
+
+.card-avatar {
+	position: relative;
+
+	margin: 1em auto;
+	height: 13em;
+	width: 8em;
+
+	background-color: var(--color-accent);
+	border-radius: 1em/.5em;
+	cursor: pointer;
+}
+
+.card-avatar::after,
+.card-avatar::before {
+	content: "";
+	position: absolute;
+	height: inherit;
+	width: inherit;
+
+	background: inherit;
+	border-radius: inherit;
+
+}
+
+.card-avatar::after  {transform: rotate(-60deg);}
+.card-avatar::before {transform: rotate(60deg);}
+
+
+.card-bio p {
+	text-align: center;
+}
+
+.card-contacts-nav {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.card-contacts-link {
+	display: block;
+	width: 40px;
+	aspect-ratio: 1/1;
+
+	color: var(--bg-color-accent);
+	font-size: 40px;
+	text-align: center;
+}
+
+.card-tabs {
+	align-self: flex-end;
+	text-align: right;
+	width: 100%;
+}

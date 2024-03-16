@@ -25,6 +25,42 @@
 </head>
 <body>
     <main class="viewport">
+        <section class="card">
+            <picture class="card-avatar">
+            </picture>
+            <div class="card-bio">
+                <p class="card-bio-p0"></p>
+                <p class="card-bio-p1"></p>
+                <p class="card-bio-p2"></p>
+                <p class="card-bio-p3"></p>
+            </div>
+            <div class="card-tabs">
+				<label>Details</label>
+				<input name="card-tabs" type="radio" class="card-tabs-details" value="details"/><br>
+				<label>Portfolio</label>
+				<input name="card-tabs" type="radio" class="card-tabs-portfolio" value="portfolio"/>
+            </div>
+            <div class="card-contacts">
+                <nav class="card-contacts-nav">
+					<a rel="me" class="button button-icon card-contacts-link"   title="mail: "      href="mailto:">
+						<i class="fa fa-envelope"></i>
+					</a>
+					<a rel="me" class="button button-icon card-contacts-link"   title="linkedin:"   href="https://www.linkedin.com/in/" >
+						<i class="fa fa-linkedin-square"></i>
+					</a>
+					<a rel="me" class="button button-icon card-contacts-link"   title="github: "    href="https://github.com/">
+						<i class="fa fa-github-square"></i>
+					</a>
+					<a rel="me" class="button button-icon card-contacts-link"   title="facebook: "  href="https://facebook.com/">
+						<i class="fa fa-facebook-square"></i>
+					</a>
+					<a rel="me" class="button button-icon card-contacts-link"   title="twitter: "   href="https://twitter.com/">
+						<i class="fa fa-twitter-square"></i>
+					</a>
+				</nav>
+                <p class="card-contacts-time"></p>
+            </div>
+        </section>
     </main>
     <section class="loader"></section>
 </body>
