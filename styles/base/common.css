@@ -1,6 +1,6 @@
 /* reset default styles */
 
-html, body, main, ul {
+html, body, main {
 	margin: 0;
 	padding: 0;
 	height: 100%;
@@ -10,6 +10,8 @@ menu, p {
 	margin: 0;
 	padding: 0;
 }
+
+ul {margin: 0;}
 
 body {
 	display: flex;
@@ -76,7 +78,6 @@ html {
 
 body {background-image: url(../../assets/bg.jpg);}
 
-
 .viewport {
 	display: none;
 	flex-direction: row;
@@ -97,7 +98,7 @@ body {background-image: url(../../assets/bg.jpg);}
 }
 
 .viewport:has(.card-tabs-details:checked) .details,
-.viewport:has(.card-tabs-portfolio:checked) .portfolio 
+.viewport:has(.card-tabs-projects:checked) .projects 
 {
 	float: right;
 	width: 70dvw;
@@ -117,7 +118,6 @@ body {background-image: url(../../assets/bg.jpg);}
 
 	background-color: var(--bg-color);
 	border-radius: 30px;
-
 }
 
 /* card */
@@ -129,7 +129,7 @@ body {background-image: url(../../assets/bg.jpg);}
 	justify-content: space-between;
 	align-items: center;
 
-	padding: 0 15px;
+	padding: 15px;
 	height: 90dvh;
 	width: 270px;
 
@@ -238,6 +238,65 @@ body {background-image: url(../../assets/bg.jpg);}
     box-sizing: border-box;
 	float: right;
 	padding: 0px 30px 0px 20px;
+}
+
+/* projects */
+
+.projects {
+	overflow-y: scroll;
+}
+
+.project {
+
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	float: right;
+	gap: 25px;
+
+
+	margin: 0px 30px 0px 20px;
+	padding: 16px 0px;
+	min-width: calc(70dvw - 70px);
+
+	border-bottom: 1px solid #ddd;
+	border-top: 1px solid #ddd;
+}
+
+.project-summary {
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.project-caption {margin: 0.83em 0;}
+.project-caption > * {margin: 0;}
+
+.project-view {
+	aspect-ratio: 4/3;
+	height: 270px;
+	background-color: blue;
+}
+
+.project-menu {
+	display: flex;
+	flex-direction: row;
+	gap: 8px;
+
+	padding: 0px;
+	margin: 0px;
+}
+
+.project-menu-button {
+	box-sizing: border-box;
+	padding: 0.7em 1.2em;
+	min-width: 120px;
+
+	background-color: var(--color-button);
+	border: 1px solid var(--color-button);
+	cursor: pointer;
+	color: #fff;
+	font-weight: 400;
 }
 
 /* ====================== */
