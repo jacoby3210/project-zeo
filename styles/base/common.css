@@ -1,0 +1,21 @@
+/* reset default styles */
+
+html, body, main {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+h2 {
+	margin: 0;
+}
+
+menu, p { 
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+}
