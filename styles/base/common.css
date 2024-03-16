@@ -1,13 +1,9 @@
 /* reset default styles */
 
-html, body, main {
+html, body, main, ul {
 	margin: 0;
 	padding: 0;
 	height: 100%;
-}
-
-h2 {
-	margin: 0;
 }
 
 menu, p { 
@@ -133,7 +129,7 @@ body {background-image: url(../../assets/bg.jpg);}
 	justify-content: space-between;
 	align-items: center;
 
-	padding: 18px 15px;
+	padding: 0 15px;
 	height: 90dvh;
 	width: 270px;
 
@@ -198,15 +194,15 @@ body {background-image: url(../../assets/bg.jpg);}
 
 /* details */
 
+.details h2 {
+	text-decoration-line: underline;
+	margin: 12px 0px 9px;
+}
 
-.details > div {
+.personal, .professional {
 	padding-left: 40px;
 	min-width: calc(70dvw - 20px);
 	float: right;
-}
-
-.details > div > h2 {
-	text-decoration-line: underline;
 }
 
 .skills {
@@ -237,3 +233,11 @@ body {background-image: url(../../assets/bg.jpg);}
 	border-width: 0px;
 	border-radius: 25px;
 }
+
+.resume {
+    box-sizing: border-box;
+	float: right;
+	padding: 0px 30px 0px 20px;
+}
+
+/* ====================== */

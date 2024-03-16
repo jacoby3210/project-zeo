@@ -11,8 +11,8 @@
 .card-bio-p3::after         {content: "I am an web developer and UI/UX javascript specialist.";}
 .card-contacts-time::after  {content: "available from UTC−8 to UTC+1";} 
 
-.personal > h2::after {content: "Personal";}
-.professional > h2::after {content: "Proffessional";}
+.personal > h2::after {content: "Personal Skills";}
+.professional > h2::after {content: "Proffessional Skills";}
 .resume > h2::after {content: "Cover Letter";}
 
 /* ====================== */
