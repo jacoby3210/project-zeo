@@ -1,0 +1,43 @@
+@media print {
+    body {}
+
+    .card-advanced-control, 
+    .card-tabs
+    {
+        display: none;
+    }
+    
+    .card {
+        height: 99dvh;
+    }
+    .details
+    {
+        float: right;
+        width: 70dvw;
+    }
+
+    .tab {
+        height: 96dvh;
+    }
+
+    .skills-entry-button {
+        padding: 6px 0px;
+    }
+    
+    .card-contacts-nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-contacts-link {
+        display: flex;
+        gap: 5px;
+        align-items: center;
+    }
+
+    .card-contacts-link::after {
+        display: inline-block;
+        content: attr(href);
+        font-size: small;
+    }
+}

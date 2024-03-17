@@ -229,7 +229,7 @@ body {background-image: url(../../assets/bg.jpg);}
 }
 
 .card-contacts-link {
-	display: block;
+	/* display: flex; */
 	width: 40px;
 	aspect-ratio: 1/1;
 
