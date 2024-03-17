@@ -1,62 +1,62 @@
 <!DOCTYPE html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Project Zeo</title>
-    <meta name="description" content="Frontend Developer Portfolio Template that helps you showcase your works and skills as a specialist.">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="stylesheet" href="styles/base/common.css">
-    <link rel="stylesheet" href="styles/base/desktop.css">
-    <link rel="stylesheet" href="styles/base/print.css">
+	<title>Project Zeo</title>
+	<meta name="description" content="Frontend Developer Portfolio Template that helps you showcase your works and skills as a specialist.">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="stylesheet" href="styles/base/common.css">
+	<link rel="stylesheet" href="styles/base/desktop.css">
+	<link rel="stylesheet" href="styles/base/print.css">
 
-    <link rel="stylesheet" href="styles/lang/eng.css">
-    <link rel="stylesheet" href="styles/lang/rus.css">
+	<link rel="stylesheet" href="styles/lang/eng.css">
+	<link rel="stylesheet" href="styles/lang/rus.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/d6496c99db.js" crossorigin="anonymous"></script>
 
-    <script>
-        window.addEventListener('load', function(){
-            const timerId = setTimeout(()=>{
-                const main = document.querySelector('main');
-                main.classList.add('loaded');
-            }, 500)
-        })
-    </script>
+	<script>
+		window.addEventListener('load', function(){
+			const timerId = setTimeout(()=>{
+				const main = document.querySelector('main');
+				main.classList.add('loaded');
+			}, 500)
+		})
+	</script>
 
 </head>
 <body>
-    <main class="viewport">
-        <section class="card">
-            <menu class="card-advanced-control">
-			    <input class="card-advanced-control-form-factor" name="form-factor" type="radio" value="desktop" checked>
-                <input class="card-advanced-control-form-factor" name="form-factor" type="radio" value="mobile">
-			    <input class="card-advanced-control-form-factor" name="form-factor" type="radio" value="tablet">
-                <br>
-                <label class="card-advanced-control-theme-state-label"></label>
-                <input class="card-advanced-control-theme-state" name="theme" type="checkbox"/>
-            </menu>
-            <picture class="card-avatar">
-            </picture>
-            <div class="card-bio">
-                <p class="card-bio-p0"></p>
-                <p class="card-bio-p1"></p>
-                <p class="card-bio-p2"></p>
-                <p class="card-bio-p3"></p>
-            </div>
-            <div class="card-tabs">
+	<main class="viewport">
+		<section class="card">
+			<menu class="card-advanced-control">
+				<input class="card-advanced-control-form-factor" name="form-factor" type="radio" value="desktop" checked>
+				<input class="card-advanced-control-form-factor" name="form-factor" type="radio" value="mobile">
+				<input class="card-advanced-control-form-factor" name="form-factor" type="radio" value="tablet">
+				<br>
+				<label class="card-advanced-control-theme-state-label"></label>
+				<input class="card-advanced-control-theme-state" name="theme" type="checkbox"/>
+			</menu>
+			<picture class="card-avatar">
+			</picture>
+			<div class="card-bio">
+				<p class="card-bio-p0"></p>
+				<p class="card-bio-p1"></p>
+				<p class="card-bio-p2"></p>
+				<p class="card-bio-p3"></p>
+			</div>
+			<div class="card-tabs">
 				<label>Details</label>
 				<input name="card-tabs" type="radio" class="card-tabs-details" value="details" checked/><br>
 				<label>Portfolio</label>
 				<input name="card-tabs" type="radio" class="card-tabs-projects" value="projects"/>
-            </div>
-            <div class="card-contacts">
-                <nav class="card-contacts-nav">
+			</div>
+			<div class="card-contacts">
+				<nav class="card-contacts-nav">
 					<a rel="me" class="button button-icon card-contacts-link"   title="mail: "      href="mailto:">
 						<i class="fa fa-envelope"></i>
 					</a>
@@ -73,112 +73,121 @@
 						<i class="fa fa-twitter-square"></i>
 					</a>
 				</nav>
-                <p class="card-contacts-time"></p>
-            </div>
-        </section>
-        <section class="details tab">
-            <div class="personal">
+				<p class="card-contacts-time"></p>
+			</div>
+		</section>
+		<section class="details tab">
+			<div class="cover-letter">
                 <h2></h2>
-                <ul class="skills">
-                    <li class="skills-entry base">
-                    
-                        <!-- Аналитический склад ума -->
-                        <button class="skills-entry-button skill-identity" type="button">
-                            <img class="skills-entry-pic " src="assets/icons/base.jpg" width="24" height="24" loading="lazy" decoding="async" alt="">
-                            <span class="skills-entry-text">Аналитический ум</span>
-                        </button>  
-
-                        <!-- Быстрая обучаемость -->
-                        <button class="skills-entry-button skill-identity" type="button">
-                            <img class="skills-entry-pic " src="assets/icons/base.jpg" width="24" height="24" loading="lazy" decoding="async" alt="">
-                            <span class="skills-entry-text">Быстро учусь</span>
-                        </button>
-
-                        <!-- Внимание к деталям -->
-                        <button class="skills-entry-button skill-identity" type="button">
-                            <img class="skills-entry-pic " src="assets/icons/base.jpg" width="24" height="24" loading="lazy" decoding="async" alt="">
-                            <span class="skills-entry-text">Внимателен к деталям</span>
-                        </button>
-
-                        <!-- Внимание к деталям -->
-                        <button class="skills-entry-button skill-identity" type="button">
-                            <img class="skills-entry-pic " src="assets/icons/base.jpg" width="24" height="24" loading="lazy" decoding="async" alt="">
-                            <span class="skills-entry-text">Исполнителен</span>
-                        </button>
-                        
-                    </li>
-
-                    <li class="skills-entry base">                                   
-                        
-                        <!-- Нацелен на результат -->
-                        <button class="skills-entry-button skill-identity" type="button">
-                            <img class="skills-entry-pic " src="assets/icons/base.jpg" width="24" height="24" loading="lazy" decoding="async" alt="">
-                            <span class="skills-entry-text">Нацелен на результат</span>
-                        </button>
-
-                        <!-- Самостоятельность -->
-                        <button class="skills-entry-button skill-identity" type="button">
-                            <img class="skills-entry-pic " src="assets/icons/base.jpg" width="24" height="24" loading="lazy" decoding="async" alt="">
-                            <span class="skills-entry-text">Самостоятельность</span>
-                        </button>
-
-                        <!-- Стремление к развитию -->
-                        <button class="skills-entry-button skill-identity" type="button">
-                            <img class="skills-entry-pic " src="assets/icons/base.jpg" width="24" height="24" loading="lazy" decoding="async" alt="">
-                            <span class="skills-entry-text">Стремление к развитию</span>
-                        </button>
-
-                    </li>
-                </ul>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, vitae quia sequi aspernatur sed aliquid nostrum eligendi minima aperiam et odit praesentium esse reprehenderit modi illum sint beatae tenetur possimus.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, vitae quia sequi aspernatur sed aliquid nostrum eligendi minima aperiam et odit praesentium esse reprehenderit modi illum sint beatae tenetur possimus.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, vitae quia sequi aspernatur sed aliquid nostrum eligendi minima aperiam et odit praesentium esse reprehenderit modi illum sint beatae tenetur possimus.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, vitae quia sequi aspernatur sed aliquid nostrum eligendi minima aperiam et odit praesentium esse reprehenderit modi illum sint beatae tenetur possimus.
+                </p>
             </div>
-            <div class="professional">
-                <h2></h2>
-                <ul class="skills">
+			<div class="personal">
+				<h2></h2>
+				<ul class="skills">
+					<li class="skills-entry base">
+					
+						<!-- Аналитический склад ума -->
+						<button class="skills-entry-button skill-identity" type="button">
+							<img class="skills-entry-pic " src="assets/icons/base.jpg" width="24" height="24" loading="lazy" decoding="async" alt="">
+							<span class="skills-entry-text">Аналитический ум</span>
+						</button>  
 
-                    <li class="skills-entry base">
+						<!-- Быстрая обучаемость -->
+						<button class="skills-entry-button skill-identity" type="button">
+							<img class="skills-entry-pic " src="assets/icons/base.jpg" width="24" height="24" loading="lazy" decoding="async" alt="">
+							<span class="skills-entry-text">Быстро учусь</span>
+						</button>
 
-                        <!-- Ok, Google -->
-                        <button class="skills-entry-button skill-common" type="button">   
-                            <img class="skills-entry-pic" src="assets/icons/Search.svg" width="24" height="24" loading="lazy" decoding="async" alt="">   
-                            <span class="skills-entry-text"> Yandex </span>  
-                        </button>
+						<!-- Внимание к деталям -->
+						<button class="skills-entry-button skill-identity" type="button">
+							<img class="skills-entry-pic " src="assets/icons/base.jpg" width="24" height="24" loading="lazy" decoding="async" alt="">
+							<span class="skills-entry-text">Внимателен к деталям</span>
+						</button>
 
-                        <!-- Использование нейросетей. -->
-                        <button class="skills-entry-button skill-common" type="button">   
-                            <img class=" skills-entry-pic " src="assets/icons/AI.svg" width="24" height="24" loading="lazy" decoding="async" alt="">   
-                            <span class="skills-entry-text"> Chat GPT </span>  
-                        </button> 
+						<!-- Внимание к деталям -->
+						<button class="skills-entry-button skill-identity" type="button">
+							<img class="skills-entry-pic " src="assets/icons/base.jpg" width="24" height="24" loading="lazy" decoding="async" alt="">
+							<span class="skills-entry-text">Исполнителен</span>
+						</button>
+						
+					</li>
+
+					<li class="skills-entry base">                                   
+						
+						<!-- Нацелен на результат -->
+						<button class="skills-entry-button skill-identity" type="button">
+							<img class="skills-entry-pic " src="assets/icons/base.jpg" width="24" height="24" loading="lazy" decoding="async" alt="">
+							<span class="skills-entry-text">Нацелен на результат</span>
+						</button>
+
+						<!-- Самостоятельность -->
+						<button class="skills-entry-button skill-identity" type="button">
+							<img class="skills-entry-pic " src="assets/icons/base.jpg" width="24" height="24" loading="lazy" decoding="async" alt="">
+							<span class="skills-entry-text">Самостоятельность</span>
+						</button>
+
+						<!-- Стремление к развитию -->
+						<button class="skills-entry-button skill-identity" type="button">
+							<img class="skills-entry-pic " src="assets/icons/base.jpg" width="24" height="24" loading="lazy" decoding="async" alt="">
+							<span class="skills-entry-text">Стремление к развитию</span>
+						</button>
+
+					</li>
+				</ul>
+			</div>
+			<div class="professional">
+				<h2></h2>
+				<ul class="skills">
+
+					<li class="skills-entry base">
+
+						<!-- Ok, Google -->
+						<button class="skills-entry-button skill-common" type="button">   
+							<img class="skills-entry-pic" src="assets/icons/Search.svg" width="24" height="24" loading="lazy" decoding="async" alt="">   
+							<span class="skills-entry-text"> Yandex </span>  
+						</button>
+
+						<!-- Использование нейросетей. -->
+						<button class="skills-entry-button skill-common" type="button">   
+							<img class=" skills-entry-pic " src="assets/icons/AI.svg" width="24" height="24" loading="lazy" decoding="async" alt="">   
+							<span class="skills-entry-text"> Chat GPT </span>  
+						</button> 
 									
 					</li>
 
-                    <li class="skills-entry core">
+					<li class="skills-entry core">
 						<!-- Сервис, в котором дизайнеры проектируют интерфейсы сайтов и мобильных приложений. -->
 						<button class="skills-entry-button" type="button">
 							<img class=" skills-entry-pic " src="assets/icons/Figma.svg" width="24" height="24" loading="lazy" decoding="async" alt="">
 							<span class="skills-entry-text">Figma</span>
 						</button>
 
-                        <!-- Конструктор сайтов. -->
-                        <button class="skills-entry-button skill-frontend" type="button">   
-                            <img class=" skills-entry-pic " src="assets/icons/Tilda.svg" width="24" height="24" loading="lazy" decoding="async" alt="">   
-                            <span class="skills-entry-text"> Tilda </span>  
-                        </button> 
-                    
-                        <!-- Конструктор сайтов.. -->
-                        <button class="skills-entry-button skill-frontend" type="button">   
-                            <img class=" skills-entry-pic " src="assets/icons/WordPress.svg" width="24" height="24" loading="lazy" decoding="async" alt="">   
-                            <span class="skills-entry-text"> WordPress </span>  
-                        </button> 			
+						<!-- Конструктор сайтов. -->
+						<button class="skills-entry-button skill-frontend" type="button">   
+							<img class=" skills-entry-pic " src="assets/icons/Tilda.svg" width="24" height="24" loading="lazy" decoding="async" alt="">   
+							<span class="skills-entry-text"> Tilda </span>  
+						</button> 
+					
+						<!-- Конструктор сайтов.. -->
+						<button class="skills-entry-button skill-frontend" type="button">   
+							<img class=" skills-entry-pic " src="assets/icons/WordPress.svg" width="24" height="24" loading="lazy" decoding="async" alt="">   
+							<span class="skills-entry-text"> WordPress </span>  
+						</button> 			
 
 					</li>
 
-                    <li class="skills-entry layout">
+					<li class="skills-entry layout">
 
-                        <!-- Встроенный в браузер Google Chrome инструмент, который позволяет веб-разработчикам тестировать интерфейсы и производительность сайта. -->
-                        <button class="skills-entry-button skill-frontend" type="button">
-                            <img class="skills-entry-pic" src="assets/icons/Chrome-DevTools.svg" width="24" height="24" loading="lazy" decoding="async" alt="">
-                            <span class="skills-entry-text">Chrome DevTools </span>
-                        </button>
+						<!-- Встроенный в браузер Google Chrome инструмент, который позволяет веб-разработчикам тестировать интерфейсы и производительность сайта. -->
+						<button class="skills-entry-button skill-frontend" type="button">
+							<img class="skills-entry-pic" src="assets/icons/Chrome-DevTools.svg" width="24" height="24" loading="lazy" decoding="async" alt="">
+							<span class="skills-entry-text">Chrome DevTools </span>
+						</button>
 
 						<!-- Язык, с помощью которого можно «разметить» структуру будущей веб-страницы: добавить основные блоки, текст, картинки, видео. -->
 						<button class="skills-entry-button skill-frontend" type="button">
@@ -200,7 +209,7 @@
 
 					</li>
 
-                    <li class="skills-entry script">
+					<li class="skills-entry script">
 
 						<!-- Язык программирования, на котором пишут веб-приложения. -->
 						<button class="skills-entry-button skill-frontend" type="button">
@@ -208,7 +217,7 @@
 							<span class="skills-entry-text">JavaScript </span>
 						</button>
 
-                        <!-- Язык программирования, на котором пишут веб-приложения. -->
+						<!-- Язык программирования, на котором пишут веб-приложения. -->
 						<button class="skills-entry-button skill-frontend" type="button">
 							<img class=" skills-entry-pic " src="assets/icons/Angular.svg" width="24" height="24" loading="lazy" decoding="async" alt="">
 							<span class="skills-entry-text">Angular</span>
@@ -227,92 +236,83 @@
 						</button>
 
 
-                        
+						
 					</li>
 
-                    <li class="skills-entry tools">
+					<li class="skills-entry tools">
 
-                        <!--  -->
+						<!--  -->
 						<button class="skills-entry-button skill-backend" type="button">
 							<img class=" skills-entry-pic " src="assets/icons/base.jpg" width="24" height="24" loading="lazy" decoding="async" alt="">
 							<span class="skills-entry-text">NodeJS</span>
 						</button>
-                        
-                        <!--  -->
+						
+						<!--  -->
 						<button class="skills-entry-button skill-backend" type="button">
 							<img class=" skills-entry-pic " src="assets/icons/base.jpg" width="24" height="24" loading="lazy" decoding="async" alt="">
 							<span class="skills-entry-text">ExpresJS</span>
 						</button>
 
-                        <!--  -->
+						<!--  -->
 						<button class="skills-entry-button skill-backend" type="button">
 							<img class="skills-entry-pic " src="assets/icons/base.jpg" width="24" height="24" loading="lazy" decoding="async" alt="">
 							<span class="skills-entry-text">PostgreSQL</span>
 						</button>
 
-                        <!--  -->
+						<!--  -->
 						<button class="skills-entry-button skill-backend" type="button">
 							<img class="skills-entry-pic " src="assets/icons/base.jpg" width="24" height="24" loading="lazy" decoding="async" alt="">
 							<span class="skills-entry-text">Spring</span>
 						</button>
-                    </li>
+					</li>
 
-                    <li class="skills-entry tools">
+					<li class="skills-entry tools">
 
-                        <!-- Сервис для совместной разработки проектов. -->
-                        <button class="skills-entry-button skill-frontend" type="button">
-                            <img class=" skills-entry-pic " src="assets/icons/Git.svg" width="24" height="24" loading="lazy" decoding="async" alt="">
-                            <span class="skills-entry-text"> Git </span>
-                        </button>
+						<!-- Сервис для совместной разработки проектов. -->
+						<button class="skills-entry-button skill-frontend" type="button">
+							<img class=" skills-entry-pic " src="assets/icons/Git.svg" width="24" height="24" loading="lazy" decoding="async" alt="">
+							<span class="skills-entry-text"> Git </span>
+						</button>
 
-                        <!-- Редактор кода для разработки веб-приложений. -->
-                        <button class="skills-entry-button skill-frontend" type="button">   
-                            <img class=" skills-entry-pic " src="assets/icons/Visual-Studio-Code.svg" width="24" height="24" loading="lazy" decoding="async" alt="">   
-                            <span class="skills-entry-text"> VS Code </span>  
-                        </button> 
+						<!-- Редактор кода для разработки веб-приложений. -->
+						<button class="skills-entry-button skill-frontend" type="button">   
+							<img class=" skills-entry-pic " src="assets/icons/Visual-Studio-Code.svg" width="24" height="24" loading="lazy" decoding="async" alt="">   
+							<span class="skills-entry-text"> VS Code </span>  
+						</button> 
 
-                        <!-- Локальный сервер для разработки приложений на Vue. Поддерживает TypeScript и JSX. -->
-                        <button class="skills-entry-button skill-frontend" type="button">
-                            <img class=" skills-entry-pic " src="assets/icons/Vite.svg" width="24" height="24" loading="lazy" decoding="async" alt="">
-                            <span class="skills-entry-text">Vite </span>
-                        </button>
+						<!-- Локальный сервер для разработки приложений на Vue. Поддерживает TypeScript и JSX. -->
+						<button class="skills-entry-button skill-frontend" type="button">
+							<img class=" skills-entry-pic " src="assets/icons/Vite.svg" width="24" height="24" loading="lazy" decoding="async" alt="">
+							<span class="skills-entry-text">Vite </span>
+						</button>
 
-                        <!-- Среда тестирования на базе Vite. -->
-                        <button class="skills-entry-button skill-frontend" type="button">
-                            <img class=" skills-entry-pic " src="assets/icons/Vitest.svg" width="24" height="24" loading="lazy" decoding="async" alt="">
-                            <span class="skills-entry-text">Vitest</span>
-                        </button>
+						<!-- Среда тестирования на базе Vite. -->
+						<button class="skills-entry-button skill-frontend" type="button">
+							<img class=" skills-entry-pic " src="assets/icons/Vitest.svg" width="24" height="24" loading="lazy" decoding="async" alt="">
+							<span class="skills-entry-text">Vitest</span>
+						</button>
 
-                        <!-- Инструмент, который позволяет собрать воедино разные модули JavaScript и оптимизировать исходный код. -->
-                        <button class="skills-entry-button skill-frontend" type="button">
-                            <img class=" skills-entry-pic " src="assets/icons/WebPack.svg" width="24" height="24" loading="lazy" decoding="async" alt="">
-                            <span class="skills-entry-text">Webpack</span>
-                        </button>
-                    </li>
+						<!-- Инструмент, который позволяет собрать воедино разные модули JavaScript и оптимизировать исходный код. -->
+						<button class="skills-entry-button skill-frontend" type="button">
+							<img class=" skills-entry-pic " src="assets/icons/WebPack.svg" width="24" height="24" loading="lazy" decoding="async" alt="">
+							<span class="skills-entry-text">Webpack</span>
+						</button>
+					</li>
 
-                </ul>                
-            </div>
-            <div class="resume">
-                <h2></h2>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, vitae quia sequi aspernatur sed aliquid nostrum eligendi minima aperiam et odit praesentium esse reprehenderit modi illum sint beatae tenetur possimus.
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, vitae quia sequi aspernatur sed aliquid nostrum eligendi minima aperiam et odit praesentium esse reprehenderit modi illum sint beatae tenetur possimus.
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, vitae quia sequi aspernatur sed aliquid nostrum eligendi minima aperiam et odit praesentium esse reprehenderit modi illum sint beatae tenetur possimus.
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, vitae quia sequi aspernatur sed aliquid nostrum eligendi minima aperiam et odit praesentium esse reprehenderit modi illum sint beatae tenetur possimus.
-                </p>
-            </div>
-        </section>
-        <section class="projects tab">
-            <div class="project">
+				</ul>                
+			</div>
+		</section>
+		<section class="projects tab">
+			<div class="project">
 				<div class="project-summary">
-                    <div class="project-caption">
-                        <h2 class="project-caption-title">Solution #1</h2>
-                        <div class="project-caption-title-sub">Experience a lifetime adventure. Save up on your holiday</div>
-                    </div>
+					<div class="project-caption">
+						<h2 class="project-caption-title">Solution #1</h2>
+						<div class="project-caption-title-sub">Experience a lifetime adventure. Save up on your holiday</div>
+					</div>
 					<div class="project-info">
 						<p>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt iure dolorum saepe laborum quod excepturi eius harum perferendis distinctio obcaecati unde, quasi voluptatem, deserunt officiis quia omnis est dolorem?
-                        </p>
+							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt iure dolorum saepe laborum quod excepturi eius harum perferendis distinctio obcaecati unde, quasi voluptatem, deserunt officiis quia omnis est dolorem?
+						</p>
 						<ul>
 						  <li>a SaaS platform for tour operators and activity providers, to manage their offers, customers, orders, and agents cooperation,</li>
 						  <li>a marketplace for end-customers to book the local tours and activities while or before the travelling.</li>
@@ -325,7 +325,7 @@
 				</div>
 				<picture class="project-view"></picture>
 			</div>
-        </section>
-    </main>
-    <section class="loader"></section>
+		</section>
+	</main>
+	<section class="loader"></section>
 </body>

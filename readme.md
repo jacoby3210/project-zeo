@@ -18,3 +18,4 @@ A basic project to demonstrate the author's current skills. Made by HTML and CSS
 - layout "details": add backend skills (NodeJS, PostgreSQL, ExpressJS, Spring).
 - add media 'print'.
 - setup desktop animations.
+- add media 'mobile'.

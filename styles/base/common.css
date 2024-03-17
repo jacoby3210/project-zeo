@@ -251,6 +251,12 @@ body {background-image: url(../../assets/bg.jpg);}
 	margin: 12px 0px 9px;
 }
 
+.cover-letter {
+    box-sizing: border-box;
+	float: right;
+	padding: 0px 30px 0px 20px;
+}
+
 .personal, .professional {
 	padding-left: 40px;
 	min-width: calc(70dvw - 20px);
@@ -284,12 +290,6 @@ body {background-image: url(../../assets/bg.jpg);}
 	background-color: #f5f5f5;
 	border-width: 0px;
 	border-radius: 25px;
-}
-
-.resume {
-    box-sizing: border-box;
-	float: right;
-	padding: 0px 30px 0px 20px;
 }
 
 /* projects */
