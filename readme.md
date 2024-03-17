@@ -16,3 +16,5 @@ A basic project to demonstrate the author's current skills. Made by HTML and CSS
 - layout "projects": add "solution template".
 - layout "card": add control panel.
 - layout "details": add backend skills (NodeJS, Plasma, PostgreSQL, SQLite, ExpressJS, Sciter).
+- add media 'print'.
+- setup desktop animations.
