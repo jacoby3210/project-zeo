@@ -4,6 +4,7 @@ html, body, main {
 	margin: 0;
 	padding: 0;
 	height: 100%;
+	font-display: block;
 }
 
 menu, p { 
@@ -49,7 +50,7 @@ html {
 }
 
 /* loader */
-
+/* h2 {display: none;} */
 .loader {
 	display: flex;
 	align-items: center;
@@ -89,7 +90,6 @@ html {
 body {background-image: url(../../assets/bg.jpg);}
 
 .viewport {
-	display: none;
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
@@ -98,12 +98,15 @@ body {background-image: url(../../assets/bg.jpg);}
 
 	background-color: var(--color-priority);
 	border-radius: 30px;
+	visibility: hidden;
 }
 
 .viewport.loaded {
+
 	display: flex;
 	animation: viewport_bounce 1.5s linear;
 	transform: translateY(5dvh);
+	visibility: visible;
 	will-change: contents;
 }
 
@@ -247,8 +250,10 @@ body {background-image: url(../../assets/bg.jpg);}
 /* details */
 
 .details h2 {
+	appearance: none;
 	text-decoration-line: underline;
 	margin: 12px 0px 9px;
+	height: 42px;
 }
 
 .cover-letter {
