@@ -1,0 +1,16 @@
+.viewport.loaded {
+	transform: translateY(5dvh);
+    animation: bounce 1s ease-in;
+}
+
+.viewport {
+    transform: translateY(-100%);
+}
+
+@keyframes bounce {
+    0% {transform: translateY(-100%);}
+    60%, 80%{transform: translateY(5dvh);}
+    68% {transform: translateY(1dvh);}
+    88% {transform: translateY(3dvh);}
+    100% {transform: translateY(5dvh);}
+}

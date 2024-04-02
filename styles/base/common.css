@@ -102,10 +102,7 @@ body {background-image: url(../../assets/bg.jpg);}
 }
 
 .viewport.loaded {
-
 	display: flex;
-	animation: viewport_bounce 1.5s linear;
-	transform: translateY(5dvh);
 	visibility: visible;
 	will-change: contents;
 }
