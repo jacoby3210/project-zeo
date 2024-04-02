@@ -1,23 +1,38 @@
 @media print {
     body {}
 
+    .viewport.loaded {width: 100dvw;}
+    .viewport:has([name="card-tabs"]:checked) {
+        width: 100dvw;
+    }
+    .card {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        border-left-width: 0;
+    }
     .card-advanced-control, 
     .card-tabs
     {
         display: none;
     }
-    
+    .cover-letter {
+        width: calc(100vw - 270px);
+    }
+    .personal, .professional {
+        min-width: calc(100dvw - 290px);
+    }
     .card {
         height: 99dvh;
     }
+
     .details
     {
         float: right;
-        width: 70dvw;
     }
 
     .tab {
         height: 96dvh;
+        width: 100vw;
     }
 
     .skills-entry-button {
