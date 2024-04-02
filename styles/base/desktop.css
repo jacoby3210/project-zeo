@@ -1,10 +1,12 @@
+/* viewport.loaded desktop animation */
+
+.viewport { 
+    transform: translateY(-100%);
+}
+
 .viewport.loaded {
 	transform: translateY(5dvh);
     animation: bounce 1s ease-in;
-}
-
-.viewport {
-    transform: translateY(-100%);
 }
 
 @keyframes bounce {
@@ -13,4 +15,15 @@
     68% {transform: translateY(1dvh);}
     88% {transform: translateY(3dvh);}
     100% {transform: translateY(5dvh);}
+}
+
+/* tab changed */
+
+.viewport {
+    transition: 1s width;    
+}
+
+.viewport:has([name="card-tabs"]:checked)
+{
+    width: 90dvw;
 }
