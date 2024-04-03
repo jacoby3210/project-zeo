@@ -32,7 +32,7 @@
 
     .tab {
         height: 96dvh;
-        width: 100vw;
+        /* width: 100vw; */
     }
 
     .skills-entry-button {
@@ -54,5 +54,13 @@
         display: inline-block;
         content: attr(href);
         font-size: small;
+    }
+
+    .tab {
+        width: auto;
+    }
+
+    .personal, .professional {
+        width: 100%;
     }
 }
