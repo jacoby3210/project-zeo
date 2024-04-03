@@ -196,27 +196,17 @@ body {background-image: url(../../assets/bg.jpg);}
 
 	margin: 1em auto;
 	height: 13em;
-	width: 8em;
+	width: 13em;
 
-	background-color: var(--color-accent);
 	border-radius: 1em/.5em;
 	cursor: pointer;
 }
 
-.card-avatar::after,
-.card-avatar::before {
-	content: "";
-	position: absolute;
-	height: inherit;
-	width: inherit;
-
-	background: inherit;
-	border-radius: inherit;
-
+.card-avatar svg {
+	fill:var(--color-accent);
+	height: 100%;
+	width: 100%;
 }
-
-.card-avatar::after  {transform: rotate(-60deg);}
-.card-avatar::before {transform: rotate(60deg);}
 
 .card-bio p {
 	text-align: center;
@@ -236,12 +226,18 @@ body {background-image: url(../../assets/bg.jpg);}
 	color: var(--bg-color-accent);
 	font-size: 40px;
 	text-align: center;
+	text-decoration: none;
 }
 
 .card-tabs {
 	align-self: flex-end;
 	text-align: right;
 	width: 100%;
+}
+
+.card-contacts h2 {
+    margin: 5px 0px;
+    text-align: left;
 }
 
 /* details */
