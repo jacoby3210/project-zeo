@@ -30,10 +30,14 @@
 
 .tab {
 	width: calc(1360px - 270px);
+	animation: tab-changed 1s;
 }
 
 @media only screen and (width < 1360px) {
-	.tab {
-		overflow-y: visible;
-	}
+	.tab {overflow-y: visible;}
+}
+
+@keyframes tab-changed {
+	0% { transform: scale(0.95); }
+	100% { transform: scale(1.0); }
 }
