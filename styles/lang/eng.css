@@ -17,4 +17,6 @@
 .personal > h2::after {content: "Personal Skills";}
 .professional > h2::after {content: "Proffessional Skills";}
 
+.card-certificates h2::after {content: "Certificates";}
+.card-contacts h2::after {content: "Contacts"}
 /* ====================== */
