@@ -8,6 +8,9 @@
 .card-bio-p0::after         {content: "Hello,";}
 .card-bio-p1::after         {content: "my name is Iacovlev Alexandr.";}
 .card-bio-p2::after         {content: "I am an web developer and UI/UX javascript specialist.";}
+
+.card-about-navigation > h2::after {content: "Cover Letter";}
+
 .card-contacts-time::after  {content: "available on 9:00-17:00 (UTC+3)";} 
 
 .cover-letter > h2::after {content: "Cover Letter";}

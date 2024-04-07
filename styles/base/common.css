@@ -12,8 +12,12 @@ menu, p {
 	display: block;
 }
 
-ul {margin: 0;}
-
+ul, input[type="radio"] {
+	margin: 0;
+}
+h2 {
+	margin: 5px 0;
+}
 body {
 	display: flex;
 	justify-content: center;
@@ -191,12 +195,9 @@ body {background-image: url(../../assets/bg.jpg);}
 	color: var(--color-accent);
 }
 
-.card-about {
-}
-
 .card-avatar {
 	display: block;
-	margin-bottom: 30px;
+	margin-bottom: 40px;
 }
 
 .card-avatar svg {
@@ -205,9 +206,8 @@ body {background-image: url(../../assets/bg.jpg);}
 	width: 100%;
 }
 
-.card-tabs {
-	align-self: flex-end;
-	text-align: right;
+.card-about-navigation {
+	/* align-self: flex-end; */
 	width: 100%;
 }
 
