@@ -12,7 +12,7 @@
 	<link rel="stylesheet" href="styles/base/print.css">
 
 	<link rel="stylesheet" href="styles/lang/eng.css">
-	<link rel="stylesheet" href="styles/lang/rus.css">
+	<!-- <link rel="stylesheet" href="styles/lang/rus.css"> -->
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,6 +23,11 @@
 	<script>
 		document.fonts.ready.then(
 			() => {
+				// Определить язык пользователя.
+				const userLang = navigator.language || navigator.userLanguage;
+				document.getElementsByTagName("html")[0].setAttribute("lang", userLang);
+
+				// Открыть сайт для пользователя.
 				const timerId = setTimeout(()=>{
 					const main = document.querySelector('main');
 					main.classList.add('loaded');
@@ -272,8 +277,8 @@
 						
 						<!--  -->
 						<button class="skills-entry-button skill-backend" type="button">
-							<img class=" skills-entry-pic " src="assets/icons/base.jpg" width="24" height="24" loading="lazy" decoding="async" alt="">
-							<span class="skills-entry-text">ExpressJS</span>
+							<img class=" skills-entry-pic " src="assets/icons/NextJS.svg" width="24" height="24" loading="lazy" decoding="async" alt="">
+							<span class="skills-entry-text">NextJS</span>
 						</button>
 
 						<!--  -->
@@ -352,3 +357,4 @@
 	</main>
 	<section class="loader"></section>
 </body>
+</html>
