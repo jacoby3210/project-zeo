@@ -191,25 +191,18 @@ body {background-image: url(../../assets/bg.jpg);}
 	color: var(--color-accent);
 }
 
+.card-about {
+}
+
 .card-avatar {
-	position: relative;
-
-	margin: 1em auto;
-	height: 13em;
-	width: 13em;
-
-	border-radius: 1em/.5em;
-	cursor: pointer;
+	display: block;
+	margin-bottom: 30px;
 }
 
 .card-avatar svg {
 	fill:var(--color-accent);
 	height: 100%;
 	width: 100%;
-}
-
-.card-bio p {
-	text-align: center;
 }
 
 .card-tabs {
