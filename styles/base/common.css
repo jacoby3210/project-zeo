@@ -140,9 +140,8 @@ body {background-image: url(../../assets/bg.jpg);}
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	align-items: center;
 
-	padding: 15px;
+	padding: 15px 0px;
 	height: 90dvh;
 	width: 270px;
 	min-width: 270px;
@@ -154,7 +153,7 @@ body {background-image: url(../../assets/bg.jpg);}
 }
 
 .card-advanced-control {
-	width: 100%;
+	padding: 0px 15px;
 	text-align: right;
 }
 
@@ -195,7 +194,11 @@ body {background-image: url(../../assets/bg.jpg);}
 	color: var(--color-accent);
 }
 
-.card-avatar-avatar {
+.card-about-avatar {
+	padding: 0px 15px;
+}
+
+.card-avatar {
 	display: block;
 }
 
@@ -205,13 +208,16 @@ body {background-image: url(../../assets/bg.jpg);}
 	width: 100%;
 }
 
+.card-about-greetings {
+	padding: 0px 15px;
+}
+
 .card-about-navigation {
-	/* align-self: flex-end; */
-	width: 100%;
+	padding: 0px 15px;
 }
 
 .card-certificates {
-	width: 100%;
+	padding: 0px 15px;
 }
 
 .card-certificates a {
@@ -220,7 +226,7 @@ body {background-image: url(../../assets/bg.jpg);}
 }
 
 .card-contacts {
-	width: 100%;
+	padding: 0px 15px;
 }
 
 .card-contacts-nav {
