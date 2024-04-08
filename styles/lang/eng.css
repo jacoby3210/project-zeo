@@ -1,22 +1,33 @@
 /* setup content */
 
-.card-advanced-control-form-factor[value="desktop"]::after{content: "desktop";}
-.card-advanced-control-form-factor[value="tablet"]::after {content: "tablet";}
-.card-advanced-control-form-factor[value="mobile"]::after {content: "mobile";}
-.card-advanced-control-theme-state-label::before {content: "toggle theme";}
+html .card-advanced-control-form-factor[value="desktop"]::after    {content: "desktop";}
+html .card-advanced-control-form-factor[value="tablet"]::after     {content: "tablet";}
+html .card-advanced-control-form-factor[value="mobile"]::after     {content: "mobile";}
+html .card-advanced-control-theme-state-label::before     {content: "toggle theme";}
 
-.card-bio-p0::after         {content: "Hello,";}
-.card-bio-p1::after         {content: "my name is Iacovlev Alexandr.";}
-.card-bio-p2::after         {content: "I am an web developer and UI/UX javascript specialist.";}
+html .card-bio-p0::after           {content: "Hello,";}
+html .card-bio-p1::after           {content: "my name is Iacovlev Alexandr.";}
+html .card-bio-p2::after           {content: "I am an web developer and UI/UX javascript specialist.";}
 
-.card-about-navigation > h2::after {content: "Navigation";}
+html .card-about-navigation > h2::after {content: "Navigation";}
 
-.card-contacts-time::after  {content: "available on 9:00-17:00 (UTC+3)";} 
+html [for="pg-0"]::after {content: "Details";}
+html [for="pg-1"]::after {content: "Projects";}
 
-.cover-letter > h2::after {content: "Cover Letter";}
-.personal > h2::after {content: "Personal Skills";}
-.professional > h2::after {content: "Proffessional Skills";}
+html .card-certificates h2::after  {content: "Certificates";}
+html .card-contacts h2::after      {content: "Contacts"}
 
-.card-certificates h2::after {content: "Certificates";}
-.card-contacts h2::after {content: "Contacts"}
+html .card-contacts-time::after    {content: "available 9:00-17:00 (UTC+3)";} 
+
+html .cover-letter > h2::after     {content: "Cover Letter";}
+html .personal > h2::after         {content: "Personal Skills";}
+html .professional > h2::after     {content: "Proffessional Skills";}
+
+html #skill-identity-0 span::after {content: "Analytic mind";}
+html #skill-identity-1 span::after {content: "Fast learner";}
+html #skill-identity-2 span::after {content: "Attentive to details";}
+html #skill-identity-3 span::after {content: "Diligent";}
+html #skill-identity-4 span::after {content: "Proactive";}
+html #skill-identity-5 span::after {content: "Self-improvement";}
+html #skill-identity-6 span::after {content: "Self-sufficient";}
 /* ====================== */

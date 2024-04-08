@@ -336,7 +336,9 @@ body {background-image: url(../../assets/bg.jpg);}
     justify-content: space-between;
 }
 
-.project-caption > * {margin: 0;}
+.project-caption > * {
+	margin: 0;
+}
 
 .project-view {
 	aspect-ratio: 4/3;
