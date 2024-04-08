@@ -24,9 +24,9 @@ html:lang(ru) .cover-letter > h2::after     {content: "Вступительно�
 html:lang(ru) .personal > h2::after         {content: "Личные качества";}
 html:lang(ru) .professional > h2::after     {content: "Профессиональные навыки";}
 
-html:lang(ru) #skill-identity-0 span::after {content: "Аналитический склад ума";}
+html:lang(ru) #skill-identity-0 span::after {content: "Аналитический ум";}
 html:lang(ru) #skill-identity-1 span::after {content: "Быстро учусь";}
-html:lang(ru) #skill-identity-2 span::after {content: "Внимателен к деталям";}
+html:lang(ru) #skill-identity-2 span::after {content: "Внимателен";}
 html:lang(ru) #skill-identity-3 span::after {content: "Исполнителен";}
 html:lang(ru) #skill-identity-4 span::after {content: "Проактивен";}
 html:lang(ru) #skill-identity-5 span::after {content: "Самостоятелен";}

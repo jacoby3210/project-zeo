@@ -1,6 +1,8 @@
 @media print {
     body {}
-
+    .viewport{
+        
+     }
     .viewport.loaded {width: 100dvw;}
     .viewport:has([name="card-tabs"]:checked) {
         width: 100dvw;
@@ -9,36 +11,27 @@
         border-top-left-radius: 0;
         border-bottom-left-radius: 0;
         border-left-width: 0;
+        height: 99dvh;
+        width: 250px;
+        min-width: 250px;
     }
     .card-advanced-control, 
     .card-about-navigation
     {
         display: none;
     }
-    .cover-letter {
-        width: calc(100vw - 270px);
+    .card-advanced-control {
+        padding: 0px;
+        text-align: right;
     }
-    .personal, .professional {
-        min-width: calc(100dvw - 290px);
-    }
-    .card {
-        height: 99dvh;
-    }
-
-    .details
-    {
-        float: right;
+    .card-about-avatar,
+    .card-about-greetings,
+    .card-about-navigation, 
+    .card-certificates,
+    .card-contacts {
+        padding: 0px 5px;
     }
 
-    .tab {
-        height: 96dvh;
-        /* width: 100vw; */
-    }
-
-    .skills-entry-button {
-        padding: 6px 0px;
-    }
-    
     .card-contacts-nav {
         display: flex;
         flex-direction: column;
@@ -55,6 +48,35 @@
         content: attr(href);
         font-size: small;
     }
+
+    .cover-letter {
+        width: calc(100dvw - 250px);
+    }
+    .cover-letter h2{ 
+        margin: 0px;
+    }
+    .personal, .professional {
+        min-width: calc(100dvw - 290px);
+    }
+
+    .details {
+        float: right;
+    }
+
+    .tab {
+        height: 96dvh;
+	    display: flow;
+    }
+
+    .skills {
+        gap: 0px;
+    }
+
+    .skills-entry-button {
+        padding: 6px 0px;
+    }
+    .skill-identity img {display:none;}
+
 
     .tab {
         width: auto;
