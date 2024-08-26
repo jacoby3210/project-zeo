@@ -136,6 +136,10 @@ body {background-image: url(../../assets/bg.jpg);}
 	border-radius: 30px;
 }
 
+.tab > * {
+	margin-left: 40px;
+}
+
 /* card */
 
 .card {
@@ -277,19 +281,15 @@ body {background-image: url(../../assets/bg.jpg);}
 }
 
 .cover-letter {
-    box-sizing: border-box;
-	float: right;
-	padding: 0px 30px 0px 20px;
-	min-width: 700px;
-	max-height: 220px;
+  box-sizing: border-box;
 	display: block;
+	float: right;
+	width: 700px;
+	max-height: 220px;
 }
 
 .personal, .professional {
 	box-sizing: border-box;
-	padding-left: 20px;
-	/* float: right; */
-	/* width: 1090px; */
 }
 
 .skills {
@@ -333,8 +333,9 @@ body {background-image: url(../../assets/bg.jpg);}
 	float: right;
 	gap: 25px;
 
-	margin: 0px 30px 0px 20px;
-	padding: 16px 0px;
+	margin-right: 30px;
+	padding-bottom: 16px;
+	padding-top: 16px;
 
 	width: calc(90dvw - 340px);
 	width: 1020px;
