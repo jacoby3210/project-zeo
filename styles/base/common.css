@@ -16,7 +16,7 @@ ul, input[type="radio"] {
 	margin: 0;
 }
 h2 {
-	margin: 5px 0;
+	margin: 2px 0;
 }
 body {
 	display: flex;
@@ -44,6 +44,8 @@ html:has(.card-advanced-control-theme-state:checked) {
 	--color-priority:  #8e99b7ba;
 	--color-secondary: #ffffff;
 }
+
+a {padding: 1px 0px;}
 
 /* fonts */
 
@@ -143,8 +145,8 @@ body {background-image: url(../../assets/bg.jpg);}
 
 	padding: 15px 0px;
 	height: 90dvh;
-	width: 270px;
-	min-width: 270px;
+	width: 320px;
+	min-width: 320px;
 
 	background-color: var(--color-menu);
 	border-radius: 30px;
@@ -153,7 +155,11 @@ body {background-image: url(../../assets/bg.jpg);}
 }
 
 .card-advanced-control {
-	padding: 0px 15px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	/* gap: 24px; */
+	padding: 0px 10px 10px;
 	text-align: right;
 }
 
@@ -166,7 +172,7 @@ body {background-image: url(../../assets/bg.jpg);}
 }
 
 .card-advanced-control-form-factor::after{
-    font-size: small;
+  font-size: small;
 	color: var(--color-accent);
 }
 
@@ -215,6 +221,11 @@ body {background-image: url(../../assets/bg.jpg);}
 	padding: 0px 15px;
 }
 
+.card-about-navigation label {
+	padding: 1px 0px;
+	display: inline-block;
+}
+
 .card-certificates {
 	padding: 0px 15px;
 }
@@ -246,8 +257,7 @@ body {background-image: url(../../assets/bg.jpg);}
 }
 
 .card-contacts h2 {
-    margin: 5px 0px;
-    text-align: left;
+  text-align: left;
 }
 
 .card-contacts p {

@@ -6,10 +6,9 @@ html:lang(ru) .card-advanced-control-form-factor[value="tablet"]::after     {con
 html:lang(ru) .card-advanced-control-form-factor[value="mobile"]::after     {content: "mobile";}
 html:lang(ru) .card-advanced-control-theme-state-label:lang(ru)::before     {content: "toggle theme";}
 
-html:lang(ru) .card-bio-p0::after           {content: "Добро пожаловать,";}
-html:lang(ru) .card-bio-p1::after           {content: "меня зовут Яковлев Александр.";}
-html:lang(ru) .card-bio-p2::after           {content: "Я веб-разработчик и специалист UI/UX.";}
-
+html:lang(ru) .card-bio-p0::after           {content: "Приветствую!";}
+html:lang(ru) .card-bio-p1::after           {content: "Меня зовут Александр Яковлев.";}
+html:lang(ru) .card-bio-p2::after           {content: "Я являюсь веб-разработчиком и специалистом в области UI/UX.";}
 html:lang(ru) .card-about-navigation > h2::after {content: "Навигация";}
 
 html:lang(ru) [for="pg-0"]::after {content: "Навыки";}

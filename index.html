@@ -14,11 +14,11 @@
 	<link rel="stylesheet" href="styles/lang/eng.css">
 	<link rel="stylesheet" href="styles/lang/rus.css">
 
-	<!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap" rel="stylesheet">
-	<script src="https://kit.fontawesome.com/d6496c99db.js" crossorigin="anonymous"></script> -->
+	<script src="https://kit.fontawesome.com/d6496c99db.js" crossorigin="anonymous"></script>
 
 	<script>
 		document.fonts.ready.then(
@@ -41,12 +41,15 @@
 	<main class="viewport">
 		<section class="card">
 			<menu class="card-advanced-control">
-				<input class="card-advanced-control-form-factor" name="form-factor" type="radio" value="desktop" checked>
-				<input class="card-advanced-control-form-factor" name="form-factor" type="radio" value="mobile">
-				<input class="card-advanced-control-form-factor" name="form-factor" type="radio" value="tablet">
-				<br>
-				<label class="card-advanced-control-theme-state-label"></label>
-				<input class="card-advanced-control-theme-state" name="theme" type="checkbox"/>
+				<div>
+					<input class="card-advanced-control-form-factor" name="form-factor" type="radio" value="desktop" checked>
+					<input class="card-advanced-control-form-factor" name="form-factor" type="radio" value="mobile">
+					<input class="card-advanced-control-form-factor" name="form-factor" type="radio" value="tablet">
+				</div>
+				<div>
+					<label class="card-advanced-control-theme-state-label"></label>
+					<input class="card-advanced-control-theme-state" name="theme" type="checkbox"/>
+				</div>
 			</menu>
 			<div class="card-about-avatar">
 				<picture class="card-avatar">
@@ -79,9 +82,9 @@
 			<div class="card-certificates">
 				<h2></h2>
 				<nav class="card-certificates-nav">
-					<a rel="me" class=""   title="Galactik"      href="https://galactik.org/">Galactik</a>
-					<a rel="me" class=""   title="GeekBrains"    href="https://gb.ru/users/674a7b92-3ca7-47bc-a28d-ef18888f3728">GeekBrains</a>
-					<a rel="me" class=""   title="HtmlLessons"   href="https://htmllessons.ru/dashboard">HtmlLessons</a>
+					<a rel="me" class=""   title="GeekBrains"   target="_blank" href="https://gb.ru/users/674a7b92-3ca7-47bc-a28d-ef18888f3728">GeekBrains</a>
+					<a rel="me" class=""   title="HtmlLessons"  target="_blank" href="https://htmllessons.ru/dashboard">HtmlLessons</a>
+					<a rel="me" class=""   title="Galactik"     target="_blank" href="https://galactik.org/">Galactik</a>
 				</nav>
 			</div>
 			<div class="card-contacts">
@@ -108,13 +111,16 @@
 		</section>
 		<section class="details tab">
 			<div class="cover-letter">
-                <h2></h2>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, vitae quia sequi aspernatur sed aliquid nostrum eligendi minima aperiam et odit praesentium esse reprehenderit modi illum sint beatae tenetur possimus.
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, vitae quia sequi aspernatur sed aliquid nostrum eligendi minima aperiam et odit praesentium esse reprehenderit modi illum sint beatae tenetur possimus.
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, vitae quia sequi aspernatur sed aliquid nostrum eligendi minima aperiam et odit praesentium esse reprehenderit modi illum sint beatae tenetur possimus.
-                </p>
-            </div>
+				<h2></h2>
+				<p>
+					Веб-разработчик с многолетним опытом создания современных и интуитивно понятных пользовательских интерфейсов. 
+				</p>
+				<p>
+					Моя цель — создавать высококачественные веб-приложения, которые решают реальные задачи пользователей, 
+					обеспечивая при этом оптимальную производительность и удобство использования. 
+					Ищу возможности для дальнейшего профессионального развития в команде единомышленников, стремящихся к совершенству в разработке.
+				</p>
+			</div>
 			<div class="personal">
 				<h2></h2>
 				<ul class="skills">
@@ -212,12 +218,6 @@
 
 					<li class="skills-entry layout">
 
-						<!-- Встроенный в браузер Google Chrome инструмент, который позволяет веб-разработчикам тестировать интерфейсы и производительность сайта. -->
-						<button class="skills-entry-button skill-frontend" type="button">
-							<img class="skills-entry-pic" src="assets/icons/Chrome-DevTools.svg" width="24" height="24" loading="lazy" decoding="async" alt="">
-							<span class="skills-entry-text">Chrome DevTools </span>
-						</button>
-
 						<!-- Язык, с помощью которого можно «разметить» структуру будущей веб-страницы: добавить основные блоки, текст, картинки, видео. -->
 						<button class="skills-entry-button skill-frontend" type="button">
 							<img class=" skills-entry-pic " src="assets/icons/HTML.svg" width="24" height="24" loading="lazy" decoding="async" alt="">
@@ -236,6 +236,11 @@
 							<span class="skills-entry-text">SASS</span>
 						</button>
 
+						<!-- Встроенный в браузер Google Chrome инструмент, который позволяет веб-разработчикам тестировать интерфейсы и производительность сайта. -->
+						<button class="skills-entry-button skill-frontend" type="button">
+							<img class="skills-entry-pic" src="assets/icons/Chrome-DevTools.svg" width="24" height="24" loading="lazy" decoding="async" alt="">
+							<span class="skills-entry-text">Chrome DevTools </span>
+						</button>
 					</li>
 
 					<li class="skills-entry script">
@@ -244,12 +249,6 @@
 						<button class="skills-entry-button skill-frontend" type="button">
 							<img class=" skills-entry-pic " src="assets/icons/js.svg" width="24" height="24" loading="lazy" decoding="async" alt="">
 							<span class="skills-entry-text">JavaScript </span>
-						</button>
-
-						<!-- Язык программирования, на котором пишут веб-приложения. -->
-						<button class="skills-entry-button skill-frontend" type="button">
-							<img class=" skills-entry-pic " src="assets/icons/Angular.svg" width="24" height="24" loading="lazy" decoding="async" alt="">
-							<span class="skills-entry-text">Angular</span>
 						</button>
 
 						<!-- Библиотека, с помощью которой можно создавать пользовательские интерфейсы. -->
@@ -286,11 +285,6 @@
 							<span class="skills-entry-text">PostgreSQL</span>
 						</button>
 
-						<!--  -->
-						<button class="skills-entry-button skill-backend" type="button">
-							<img class="skills-entry-pic " src="assets/icons/Spring.svg" width="24" height="24" loading="lazy" decoding="async" alt="">
-							<span class="skills-entry-text">Spring</span>
-						</button>
 					</li>
 
 					<li class="skills-entry tools">
@@ -311,12 +305,6 @@
 						<button class="skills-entry-button skill-frontend" type="button">
 							<img class=" skills-entry-pic " src="assets/icons/Vite.svg" width="24" height="24" loading="lazy" decoding="async" alt="">
 							<span class="skills-entry-text">Vite </span>
-						</button>
-
-						<!-- Среда тестирования на базе Vite. -->
-						<button class="skills-entry-button skill-frontend" type="button">
-							<img class=" skills-entry-pic " src="assets/icons/Vitest.svg" width="24" height="24" loading="lazy" decoding="async" alt="">
-							<span class="skills-entry-text">Vitest</span>
 						</button>
 
 						<!-- Инструмент, который позволяет собрать воедино разные модули JavaScript и оптимизировать исходный код. -->
