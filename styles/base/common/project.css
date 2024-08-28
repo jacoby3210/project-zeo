@@ -1,0 +1,55 @@
+.projects {
+	overflow-y: scroll;
+}
+
+.project {
+
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	float: right;
+	gap: 25px;
+
+	padding-bottom: 16px;
+	padding-top: 16px;
+
+	border-bottom: 1px solid #ddd;
+	border-top: 1px solid #ddd;
+}
+
+.project-summary {
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.project-caption > * {
+	margin: 0;
+}
+
+.project-view {
+	aspect-ratio: 4/3;
+	height: 240px;
+	background-color: blue;
+}
+
+.project-menu {
+	display: flex;
+	flex-direction: row;
+	gap: 8px;
+
+	padding: 0px;
+	margin: 0px;
+}
+
+.project-menu-button {
+	box-sizing: border-box;
+	padding: 0.7em 1.2em;
+	min-width: 120px;
+
+	background-color: var(--color-button);
+	border: 1px solid var(--color-button);
+	cursor: pointer;
+	color: #fff;
+	font-weight: 400;
+}

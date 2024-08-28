@@ -1,0 +1,35 @@
+/* loader */
+
+.loader {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+
+	height: 100dvh;
+	width: 100dvw;
+}
+
+.loader::before {
+	content: "";
+	height: 50px;
+	width: 50px;
+
+	border: 5px solid var(--color-loader);
+	border-top-color: transparent;
+	border-radius: 50%;
+
+	animation: loader 1s linear infinite;
+}
+
+.loaded + .loader {
+	opacity: 0;
+	pointer-events: none;
+}
+
+@keyframes loader {
+	from {transform: rotate(0deg);}
+	to {transform: rotate(360deg);}
+}

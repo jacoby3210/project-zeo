@@ -1,0 +1,86 @@
+.card {
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	background-color: var(--color-menu);
+	box-shadow: 2px 2px 4px var(--color-menu);
+	color: var(--color-accent)
+}
+
+.card-advanced-control {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	text-align: right;
+}
+
+.card-advanced-control-form-factor {
+	text-align: center;
+	margin: 0;
+	appearance: none;
+	cursor: pointer;
+}
+
+.card-advanced-control-form-factor::after{
+  font-size: small;
+	color: var(--color-accent);
+}
+
+.card-advanced-control-form-factor:not(:checked)::after {
+	text-decoration: underline; 
+}
+
+.card-advanced-control-theme-state-label {
+	font-size: small;
+}
+
+.card-advanced-control-theme-state {
+	text-align: right;
+	vertical-align: middle;
+	margin: 0;
+	cursor: pointer;
+}
+
+.card-advanced-control-theme-state::before {
+	display: block;
+	padding: 0px 20px;
+	width: max-content;
+	color: var(--color-accent);
+}
+
+.card-avatar {display: block;}
+
+.card-avatar svg {
+	fill:var(--color-accent);
+	height: 100%;
+	width: 100%;
+}
+
+.card-about-navigation label {
+	display: inline-block;
+	padding: 1px 0px;
+	cursor: pointer;
+}
+
+.card-certificates a {display: block; color: var(--color-accent);}
+
+.card-contacts-nav {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.card-contacts-link {
+	width: 40px;
+	aspect-ratio: 1/1;
+
+	color: var(--bg-color-accent);
+	font-size: 40px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.card-contacts h3 { text-align: left; }
+.card-contacts p { font-size: smaller; text-align: right; }
