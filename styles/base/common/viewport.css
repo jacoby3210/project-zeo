@@ -18,8 +18,7 @@
 	display: none;
 	overflow: hidden;
 
-	scrollbar-color: hsl(0 0% 50%);
-	scrollbar-width: thin;
+
 	scroll-padding-top: 25px;
 	z-index: 1;
 

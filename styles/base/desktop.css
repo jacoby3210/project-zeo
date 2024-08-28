@@ -41,7 +41,6 @@
 		width: calc(1360px - 270px);
 		animation: tab-changed 1s;
 		float: right;
-		border-radius: 30px;
 	}
 
 	@media only screen and (width < 1360px) {
@@ -63,5 +62,14 @@
 		min-width: 320px;
 		border-radius: 30px;
 	}
-	.project {margin-right: 30px;}
+	.project {margin-right: 30px; gap: 38px}
+	.project-summary {width: 600px}
+	.tab-content{
+		flex-direction: column;
+		overflow-y: auto; 
+		scrollbar-color: hsl(0 0% 50%);
+		scrollbar-width: thin;
+		height: calc(90dvh - 92px);
+	}
+	.project-info ul {margin: 7px 0px 12px;}
 }

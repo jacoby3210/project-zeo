@@ -1,5 +1,5 @@
 /* details */
-
+.details {float: right; display: flex;}
 .details h3 {
 	appearance: none;
 	text-decoration-line: underline;
@@ -7,15 +7,26 @@
 	width: max-content;
 }
 
+.details h2 {
+	float: right;
+	width: 800px;
+	margin-right: 200px;
+}
+
 .cover-letter {
   box-sizing: border-box;
 	display: block;
 	float: right;
-	/* width: 700px; */
+	width: 800px;
+	margin-right: 200px;
 }
 
 .personal, .professional {
 	box-sizing: border-box;
+	width: 800px;
+	margin-right: 200px;
+	float: right;
+	display: block;
 }
 
 .skills {

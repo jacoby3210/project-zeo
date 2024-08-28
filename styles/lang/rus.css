@@ -19,7 +19,7 @@ html:lang(ru) .card-contacts h3::after      {content: "Контакты"}
 
 html:lang(ru) .card-contacts-time::after    {content: "доступен 9:00-17:00 (UTC+3)";} 
 
-html:lang(ru)  .details > h2::after     		{content: "Вступительное слово";}
+html:lang(ru) .details h2::after     		{content: "Вступительное слово";}
 html:lang(ru) .personal > h3::after         {content: "Личные качества";}
 html:lang(ru) .professional > h3::after     {content: "Профессиональные навыки";}
 
