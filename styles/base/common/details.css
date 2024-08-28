@@ -7,25 +7,13 @@
 	width: max-content;
 }
 
-.details h2 {
-	float: right;
-	width: 800px;
-	margin-right: 200px;
-}
-
 .cover-letter {
   box-sizing: border-box;
 	display: block;
-	float: right;
-	width: 800px;
-	margin-right: 200px;
 }
 
 .personal, .professional {
 	box-sizing: border-box;
-	width: 800px;
-	margin-right: 200px;
-	float: right;
 	display: block;
 }
 
