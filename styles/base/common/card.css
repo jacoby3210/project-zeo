@@ -12,7 +12,8 @@
 .card-advanced-control {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: start;
+	gap: 10px;
 	text-align: right;
 }
 

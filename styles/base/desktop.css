@@ -52,22 +52,23 @@
 		border-radius: 30px;
 	}
 
-	.tab-content > * {float: right; width: 1000px; }
-	.details > .tab-content > * {width: 800px; margin-right: 200px;}
-	.projects > h2 {float: right; width: 1000px}
-	.project-list {height: max-content; overflow-y: auto; scrollbar-width: thin; height: calc(90dvh - 92px - 41px);}
-	.project-list::-webkit-scrollbar {
-		width: 9px;
-	}
+	.tab-content > * { float: right; width: 1000px; }
+	.details > .tab-content > * { width: 800px; margin-right: 200px; }
+	.projects > h2 { float: right; width: 1000px; }
+	
+	.project-list {height: max-content; overflow-y: auto; height: calc(90dvh - 92px - 41px);}
+	.project-list::-webkit-scrollbar {width: 9px;}
 	.project-list::-webkit-scrollbar-track {
-		background: transparent;
+		background: rgba(155, 155, 155, 0.5); 
+		border-radius: 20px;
 	}
 	.project-list::-webkit-scrollbar-thumb {
-		background-color: rgba(155, 155, 155, 0.5);
+		background-color: rgba(55, 55, 55, 0.5);
 		border-radius: 20px;
 		border: transparent;
 	}
-	.project {margin-right: 30px; gap: 38px}
-	.project-summary {width: 600px;}
-	.project-info ul {margin: 7px 0px 12px;}
+
+	.project { margin-right: 30px; gap: 38px; }
+	.project-summary { width: 600px; }
+	.project-info ul { margin: 7px 0px 12px; }
 }
