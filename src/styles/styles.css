@@ -20,7 +20,7 @@ html {
 	--color-secondary: #c2cbeb;
 }
 
-html:has(.card-advanced-control-theme-state:checked) {
+html:has(.card-advanced-control-theme-input:checked) {
 	--color-accent:    #ef4141;
 	--color-button:    #096c5f;
 

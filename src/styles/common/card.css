@@ -22,6 +22,7 @@
 }
 
 .card-advanced-control-theme-label {
+	cursor: pointer;
 	font-size: small;
 }
 
