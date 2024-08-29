@@ -20,6 +20,8 @@
     href="https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap"
     rel="stylesheet"
   />
+  <link rel="stylesheet" href="styles/styles.css" />
+
   <script
     src="https://kit.fontawesome.com/d6496c99db.js"
     crossorigin="anonymous"
@@ -43,23 +45,42 @@
     <section class="card">
       <menu class="card-advanced-control">
         <input
-          class="card-advanced-control-theme-control"
+          class="card-advanced-control-theme-input"
           name="theme"
           type="checkbox"
         />
         <label class="card-advanced-control-theme-label"></label>
       </menu>
       <div class="card-bio">
-        <picture class="card-bio-avatar"> </picture>
+        <picture class="card-bio-avatar">
+          <svg
+            version="1.0"
+            xmlns="http://www.w3.org/2000/svg"
+            width="1280.000000pt"
+            height="1108.000000pt"
+            preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 1280.000000 1108.000000"
+          >
+            <g
+              transform="translate(0.000000,1108.000000) scale(0.100000,-0.100000)"
+            >
+              <path
+                d="M3193 11068 c-14 -19 -3181 -5500 -3187 -5518 -4 -9 642 -1136 1592
+			-2780 l1598 -2765 3204 0 3204 0 1598 2765 c879 1520 1598 2767 1598 2770 0 3
+		-719 1249 -1598 2770 l-1598 2765 -3201 3 c-2553 2 -3202 -1 -3210 -10z"
+              />
+            </g>
+          </svg>
+        </picture>
         <p class="card-bio-p0"></p>
         <p class="card-bio-p1"></p>
         <p class="card-bio-p2"></p>
       </div>
       <div class="card-education">
         <h3></h3>
-        <nav class="card-certificates-nav">
+        <nav class="card-education-nav">
           <a
-            class=""
+            class="card-education-link"
             href="https://gb.ru/users/674a7b92-3ca7-47bc-a28d-ef18888f3728"
             rel="me"
             title="GeekBrains"
@@ -68,7 +89,7 @@
             GeekBrains
           </a>
           <a
-            class=""
+            class="card-education-link"
             href="https://htmllessons.ru/dashboard"
             rel="me"
             title="HtmlLessons"
@@ -77,7 +98,7 @@
             HtmlLessons
           </a>
           <a
-            class=""
+            class="card-education-link"
             rel="me"
             href="https://galactik.org/"
             title="Galactik"
@@ -87,26 +108,34 @@
           </a>
         </nav>
       </div>
-      <div class="card-expirience"></div>
-      <div class="card-navigation">
+      <div class="card-pages">
         <h3></h3>
         <input
           id="pg-0"
-          name="card-tabs"
+          class="card-pages-input card-pages-details"
+          name="card-page"
           type="radio"
-          class="card-tabs-details"
           value="details"
         />
-        <label for="pg-0"></label>
+        <label for="pg-0" class="card-pages-label"></label>
         <br />
         <input
           id="pg-1"
-          name="card-tabs"
+          class="card-pages-input card-pages-projects"
+          name="card-page"
           type="radio"
-          class="card-tabs-projects"
           value="projects"
         />
-        <label for="pg-1"></label>
+        <label for="pg-1" class="card-pages-label"></label>
+        <br />
+        <input
+          id="pg-2"
+          class="card-pages-input card-pages-works"
+          name="card-page"
+          type="radio"
+          value="works"
+        />
+        <label for="pg-2" class="card-pages-label"></label>
       </div>
       <div class="card-social-networks">
         <h3></h3>
@@ -576,5 +605,7 @@
         </div>
       </div>
     </section>
+    <section class="works tab"></section>
   </main>
+  <section class="loader"></section>
 </body>

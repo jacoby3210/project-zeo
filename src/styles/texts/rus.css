@@ -1,0 +1,36 @@
+
+/* ========================================================================= */
+/* setup content */
+/* ========================================================================= */
+
+html:lang(ru) .card-advanced-control-theme-label::after     {content: "RED Mode";}
+
+html:lang(ru) .card-bio-p0::after           			{content: "Приветствую!";}
+html:lang(ru) .card-bio-p1::after         	 			{content: "Меня зовут Джон Доу.";}
+html:lang(ru) .card-bio-p2::after       	    		{content: "Я являюсь веб-разработчиком и специалистом в области UI/UX.";}
+html:lang(ru) .card-education h3::after						{content: "Образование";}
+html:lang(ru) .card-pages > h3::after  						{content: "Навигация";}
+html:lang(ru) .card-social-networks h3::after 		{content: "Социальные сети"}
+
+html:lang(ru) [for="pg-0"]::after 								{content: "Навыки";}
+html:lang(ru) [for="pg-1"]::after 								{content: "Проекты";}
+html:lang(ru) [for="pg-2"]::after 								{content: "Работа";}
+
+html:lang(ru) .card-social-networks-time::after  {content: "доступен 9:00-17:00 (UTC+3)";} 
+
+html:lang(ru) .details h2::after     							{content: "Вступительное слово";}
+html:lang(ru) .personal > h3::after         			{content: "Личные качества";}
+html:lang(ru) .professional > h3::after     			{content: "Профессиональные навыки";}
+
+/* html:lang(ru) #skill-identity-0 span::after 			{content: "Аналитический ум";}
+html:lang(ru) #skill-identity-1 span::after 			{content: "Быстро учусь";}
+html:lang(ru) #skill-identity-2 span::after 			{content: "Внимателен";}
+html:lang(ru) #skill-identity-3 span::after 			{content: "Исполнителен";}
+html:lang(ru) #skill-identity-4 span::after 			{content: "Проактивен";}
+html:lang(ru) #skill-identity-5 span::after 			{content: "Самостоятелен";}
+html:lang(ru) #skill-identity-6 span::after 			{content: "Стремление к развитию";} */
+
+/* html:lang(ru) .cover-letter > p:nth-of-type(1):after{content: "Веб-разработчик с многолетним опытом создания современных и интуитивно понятных пользовательских интерфейсов. "} */
+/* html:lang(ru) .cover-letter > p:nth-of-type(2):after{content: "Моя цель — создавать высококачественные веб-приложения, которые решают реальные задачи пользователей, обеспечивая при этом оптимальную производительность и удобство использования. Ищу возможности для дальнейшего профессионального развития в команде единомышленников, стремящихся к совершенству в разработке. "} */
+
+/* ========================================================================= */

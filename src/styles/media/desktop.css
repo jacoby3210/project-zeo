@@ -1,0 +1,79 @@
+/* ========================================================================= */
+/* desktop */
+/* ========================================================================= */
+
+@media screen and (min-width: 500px) {
+
+	/* common */
+	html, body, main {height: 100%;}
+
+	/* viewport.loaded desktop animation */
+	.viewport {transform: translateY(-100%); height: 90dvh;}
+	.viewport {transition: 1s width; border-radius: 30px;}
+	.viewport:has([name="card-page"]:checked){width: 1360px;}
+	.viewport:has(.card-pages-details:checked) .details,
+	.viewport:has(.card-pages-projects:checked) .projects, 
+	.viewport:has(.card-pages-works:checked) .works 
+		{display: flex;}
+
+	.viewport.loaded {
+		display: flex;
+		will-change: contents;
+		width: 270px;
+		min-width: 270px;
+		transform: translateY(5dvh);
+		animation: bounce 1s ease-in;
+	}
+
+	@keyframes bounce {
+		0% {transform: translateY(-100%);}
+		60%, 80%{transform: translateY(5dvh);}
+		68% {transform: translateY(1dvh);}
+		88% {transform: translateY(3dvh);}
+		100% {transform: translateY(5dvh);}
+	}
+
+	/* tab changed */
+	.tab {
+		width: calc(1360px - 270px);
+		animation: tab-changed 1s;
+		float: right;
+	}
+	.tab-content {height: calc(90dvh - 92px); overflow-y: auto;}
+
+	@keyframes tab-changed {
+		0% { transform: scale(0.98); }
+		100% { transform: scale(1.0); }
+	}
+
+	.card {
+		padding: 30px 30px 10px;
+		height: 90dvh;
+		width: 320px;
+		min-width: 320px;
+		border-radius: 30px;
+	}
+
+	.tab-content > * { float: right; width: 1000px; }
+	/* .details > .tab-content > * { width: 800px; margin-right: 200px; }
+	.projects > h2 { float: right; width: 1000px; }
+	
+	.project-list {height: max-content; overflow-y: auto; height: calc(90dvh - 92px - 41px);}
+	.project-list::-webkit-scrollbar {width: 9px;}
+	.project-list::-webkit-scrollbar-track {
+		background: rgba(155, 155, 155, 0.5); 
+		border-radius: 20px;
+	}
+	.project-list::-webkit-scrollbar-thumb {
+		background-color: rgba(55, 55, 55, 0.5);
+		border-radius: 20px;
+		border: transparent;
+	}
+
+	.project { margin-right: 30px; gap: 38px; }
+	.project-summary { width: 600px; }
+	.project-info ul { margin: 7px 0px 12px; } */
+
+}
+
+/* ========================================================================= */

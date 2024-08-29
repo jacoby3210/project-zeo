@@ -1,0 +1,54 @@
+/* import */
+@import 'common/card.css';
+/* @import 'common/details.css'; */
+@import 'common/loader.css';
+/* @import 'common/project.css'; */
+@import 'common/viewport.css';
+
+@import 'media/desktop.css';
+@import 'texts/rus.css';
+
+/* color pallette */
+
+html {
+	--color-accent:    #55ffb5;
+	--color-button:    #c44f4b;
+
+	--color-loader:    #000000;
+	--color-menu:      #0a1833;
+	--color-priority:  #a7bfcbba;
+	--color-secondary: #c2cbeb;
+}
+
+html:has(.card-advanced-control-theme-state:checked) {
+	--color-accent:    #ef4141;
+	--color-button:    #096c5f;
+
+	--color-loader:	   #000000;
+	--color-menu:      #0a1833;
+	--color-priority:  #8e99b7ba;
+	--color-secondary: #ffffff;
+}
+
+body {background-image: url(../assets/bg.jpg);}
+
+/* fonts */
+
+html {
+  font-family: "Tektur", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* reset default styles */
+
+html, body, main, menu, p { margin: 0; padding: 0; }
+body {display: flex; justify-content: center;}
+menu, p { display: block; }
+
+a {padding: 1px 0px;}
+ul, input[type="radio"]{margin: 0;}
+h2 {margin-top: 5px; margin-bottom: 5px;}
+h3 {margin: 2px 0;}
+
+/* ========================================================================= */

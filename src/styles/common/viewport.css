@@ -1,0 +1,20 @@
+/* ========================================================================= */
+/* viewport */
+/* ========================================================================= */
+
+.viewport {
+	align-items: center;
+	flex-direction: row;
+	justify-content: center;
+	background-color: var(--color-priority);
+	width: min-content;
+}
+
+.tab {
+	display: none;
+	overflow: hidden;
+	z-index: 1;
+	background-color: var(--bg-color);
+}
+
+/* ========================================================================= */

@@ -1,0 +1,74 @@
+/* ========================================================================= */
+/* card */
+/* ========================================================================= */
+
+.card {
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	background-color: var(--color-menu);
+	box-shadow: 2px 2px 4px var(--color-menu);
+	color: var(--color-accent)
+}
+
+.card-advanced-control {
+	display: flex;
+	flex-direction: row;
+	justify-content: start;
+	gap: 10px;
+	text-align: right;
+}
+
+.card-advanced-control-theme-label {
+	font-size: small;
+}
+
+.card-advanced-control-theme-input {
+	cursor: pointer;
+	text-align: right;
+	vertical-align: middle;
+	margin: 0;
+}
+
+.card-bio svg {
+	fill:var(--color-accent);
+	height: 260px;
+	width: 260px;
+}
+
+.card-education-link {
+	display: block; 
+	color: var(--color-accent);
+}
+
+.card-pages-input {
+
+}
+
+.card-pages-label {
+	display: inline-block;
+	cursor: pointer;
+	padding: 1px 0px;
+}
+
+.card-social-networks-nav {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.card-social-networks-link {
+	width: 40px;
+	aspect-ratio: 1/1;
+
+	color: var(--bg-color-accent);
+	font-size: 40px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.card-social-networks p {font-size: smaller; text-align: right;}
+
+/* ========================================================================= */
