@@ -2,7 +2,7 @@
 
 ## 📝 Brief
 
-This project is a blueprint for the development of actual web applications.
+A basic portfolio site to display the author's skills and competencies
 
 ## 🛠️ Developer Tech Stack
 
