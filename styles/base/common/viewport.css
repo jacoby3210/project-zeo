@@ -1,27 +1,15 @@
 .viewport {
-	flex-direction: row;
 	align-items: center;
+	flex-direction: row;
 	justify-content: center;
-	width: min-content;
-
 	background-color: var(--color-priority);
-}
-
-.viewport:has(.card-tabs-details:checked) .details,
-.viewport:has(.card-tabs-projects:checked) .projects 
-{
-	display: flex;
-	flex-direction: column;
+	width: min-content;
 }
 
 .tab {
 	display: none;
 	overflow: hidden;
-
-
-	scroll-padding-top: 25px;
 	z-index: 1;
-
 	background-color: var(--bg-color);
 }
 

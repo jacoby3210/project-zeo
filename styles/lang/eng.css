@@ -3,7 +3,7 @@
 html .card-advanced-control-form-factor[value="desktop"]::after    {content: "desktop";}
 html .card-advanced-control-form-factor[value="tablet"]::after     {content: "tablet";}
 html .card-advanced-control-form-factor[value="mobile"]::after     {content: "mobile";}
-html .card-advanced-control-theme-state-label::before     {content: "toggle theme";}
+html .card-advanced-control-theme-state-label::before					     {content: "red mode";}
 
 html .card-bio-p0::after           {content: "Hello,";}
 html .card-bio-p1::after           {content: "my name is Iacovlev Alexandr.";}

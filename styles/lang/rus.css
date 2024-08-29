@@ -4,7 +4,7 @@
 html:lang(ru) .card-advanced-control-form-factor[value="desktop"]::after    {content: "desktop";}
 html:lang(ru) .card-advanced-control-form-factor[value="tablet"]::after     {content: "tablet";}
 html:lang(ru) .card-advanced-control-form-factor[value="mobile"]::after     {content: "mobile";}
-html:lang(ru) .card-advanced-control-theme-state-label:lang(ru)::before     {content: "toggle theme";}
+html:lang(ru) .card-advanced-control-theme-state-label:lang(ru)::before     {content: "red mode";}
 
 html:lang(ru) .card-bio-p0::after           {content: "Приветствую!";}
 html:lang(ru) .card-bio-p1::after           {content: "Меня зовут Александр Яковлев.";}
