@@ -9,6 +9,34 @@
     content="Frontend Developer Portfolio Template that helps you showcase your works and skills as a specialist."
   />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Anta&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap"
+    rel="stylesheet"
+  />
+  <script
+    src="https://kit.fontawesome.com/d6496c99db.js"
+    crossorigin="anonymous"
+  ></script>
+  <script>
+    document.fonts.ready.then(() => {
+      // define user lang.
+      const userLang = navigator.language || navigator.userLanguage;
+      document.getElementsByTagName("html")[0].setAttribute("lang", userLang);
+
+      // Open the site with a small guaranteed delay to have time to display the loader.
+      const timerId = setTimeout(() => {
+        const main = document.querySelector("main");
+        main.classList.add("loaded");
+      }, 500);
+    });
+  </script>
 </head>
 <body>
   <main class="viewport">

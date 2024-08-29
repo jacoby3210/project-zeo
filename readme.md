@@ -14,6 +14,7 @@ But for correct (more beautiful) work, used minimal code.
 - write README.md;
 - create file\folder structure && add index.html;
 - write index.html content, init DOM tree and classes;
+- сonnect FontAwesome library and use script to wait for the fonts to load;
 - add dev resourses;
 - add desktop.css and common.css files;
 
