@@ -1,6 +1,6 @@
 /* import */
 @import 'common/card.css';
-/* @import 'common/details.css'; */
+@import 'common/details.css';
 @import 'common/loader.css';
 /* @import 'common/project.css'; */
 @import 'common/viewport.css';
