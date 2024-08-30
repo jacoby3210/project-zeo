@@ -1,0 +1,45 @@
+.project {
+	box-sizing: border-box;
+	display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+	
+	border-bottom: 1px solid #ddd;
+	border-top: 1px solid #ddd;
+
+	padding-bottom: 16px;
+	padding-top: 16px;
+
+}
+
+.project-caption > * {
+	margin: 0;
+}
+
+.project-view {
+	aspect-ratio: 4/3;
+	height: 240px;
+	background-color: blue;
+}
+
+.project-menu {
+	display: flex;
+	flex-direction: row;
+	gap: 8px;
+
+	padding: 0px;
+	margin: 0px;
+	height: 45px;
+}
+
+.project-menu-link {
+	box-sizing: border-box;
+	padding: 0.7em 1.2em;
+	min-width: 120px;
+
+	background-color: var(--color-button);
+	border: 1px solid var(--color-button);
+	cursor: pointer;
+	color: #fff;
+	font-weight: 400;
+}

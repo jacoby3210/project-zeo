@@ -2,7 +2,7 @@
 @import 'common/card.css';
 @import 'common/details.css';
 @import 'common/loader.css';
-/* @import 'common/project.css'; */
+@import 'common/project.css';
 @import 'common/viewport.css';
 
 @import 'media/desktop.css';
@@ -50,5 +50,16 @@ a {padding: 1px 0px;}
 ul, input[type="radio"]{margin: 0;}
 h2 {margin-top: 5px; margin-bottom: 5px;}
 h3 {margin: 2px 0;}
+
+::-webkit-scrollbar {width: 9px;}
+::-webkit-scrollbar-track {
+	background: rgba(155, 155, 155, 0.5); 
+	border-radius: 20px;
+}
+::-webkit-scrollbar-thumb {
+	background-color: rgba(55, 55, 55, 0.5);
+	border-radius: 20px;
+	border: transparent;
+}
 
 /* ========================================================================= */

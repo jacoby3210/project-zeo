@@ -16,11 +16,12 @@ html:lang(ru) [for="pg-0"]::after 								{content: "Навыки";}
 html:lang(ru) [for="pg-1"]::after 								{content: "Проекты";}
 html:lang(ru) [for="pg-2"]::after 								{content: "Работа";}
 
-html:lang(ru) .card-social-networks-time::after  {content: "доступен 9:00-17:00 (UTC+3)";} 
+html:lang(ru) .card-social-networks-time::after   {content: "доступен 9:00-17:00 (UTC+3)";} 
 
 html:lang(ru) .details h2::after     							{content: "Вступительное слово";}
 html:lang(ru) .personal > h3::after         			{content: "Личные качества";}
 html:lang(ru) .professional > h3::after     			{content: "Профессиональные навыки";}
+html:lang(ru) .projects h2::after 								{content: "Проекты";}
 
 html:lang(ru) .cover-letter > p:nth-of-type(1):after
 {content: "Веб-разработчик с многолетним опытом создания современных и интуитивно понятных пользовательских интерфейсов. "}
@@ -36,5 +37,10 @@ html:lang(ru) .cover-letter > p:nth-of-type(2):after
 .personal .skills-entry:nth-child(2) div:nth-child(2):after {content: "Самостоятелен";}
 .personal .skills-entry:nth-child(2) div:nth-child(3):after {content: "Стремление к развитию";}
 
+.project-caption::after 		{content: "Проект"}
+.project-description::after {content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt iure dolorum saepe laborum quod excepturi eius harum perferendis distinctio obcaecati unde, quasi voluptatem, deserunt officiis quia omnis est dolorem?"}
+.project-feature-00::after 	{content: "Платформа для туроператоров и поставщиков услуг, позволяющая управлять предложениями, клиентами, заказами и сотрудничеством с агентами."}
+.project-feature-01::after 	{content: "Платформа для туроператоров и поставщиков услуг, позволяющая управлять предложениями, клиентами, заказами и сотрудничеством с агентами."}
+.project-feature-02::after 	{content: "Платформа для туроператоров и поставщиков услуг, позволяющая управлять предложениями, клиентами, заказами и сотрудничеством с агентами."}
 
 /* ========================================================================= */
