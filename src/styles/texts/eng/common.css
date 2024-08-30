@@ -1,0 +1,39 @@
+
+/* ========================================================================= */
+/* common content */
+/* ========================================================================= */
+
+html:lang(en) .card-advanced-control-theme-label::after     {content: "RED Mode";}
+
+html:lang(en) .card-bio-p0::after           			{content: "Hello!";}
+html:lang(en) .card-bio-p1::after         	 			{content: "My name is John Doe.";}
+html:lang(en) .card-bio-p2::after       	    		{content: "I am a web developer and UI/UX specialist.";}
+html:lang(en) .card-education h3::after						{content: "Education";}
+html:lang(en) .card-pages > h3::after  						{content: "Navigation";}
+html:lang(en) .card-social-networks h3::after 		{content: "Social networks"}
+
+html:lang(en) [for="pg-0"]::after 								{content: "Skills";}
+html:lang(en) [for="pg-1"]::after 								{content: "Projects";}
+html:lang(en) [for="pg-2"]::after 								{content: "Works";}
+
+html:lang(en) .card-social-networks-time::after   {content: "available 9:00-17:00 (UTC+3)";} 
+
+html:lang(en) .details h2::after     							{content: "Greetings";}
+html:lang(en) .personal > h3::after         			{content: "Personal Skills";}
+html:lang(en) .professional > h3::after     			{content: "Professional Skills";}
+html:lang(en) .projects h2::after 								{content: "Projects";}
+
+html:lang(en) .cover-letter > p:nth-of-type(1):after
+	{content: "Web developer with years of experience creating modern and intuitive user interfaces."}
+html:lang(en) .cover-letter > p:nth-of-type(2):after
+	{content: "My goal is to build high quality web applications that solve real user problems while providing optimal performance and usability. I am looking for opportunities for further professional development in a team of like-minded people striving for excellence in development."}
+
+.personal .skills-entry div:after {content: "";}
+.personal .skills-entry:nth-child(1) div:nth-child(1):after {content: "Analytical mind";}
+.personal .skills-entry:nth-child(1) div:nth-child(2):after {content: "Fast learning";}
+.personal .skills-entry:nth-child(1) div:nth-child(3):after {content: "Attentive";}
+.personal .skills-entry:nth-child(1) div:nth-child(1):after {content: "Executive";}
+.personal .skills-entry:nth-child(2) div:nth-child(2):after {content: "Proactive";}
+.personal .skills-entry:nth-child(2) div:nth-child(3):after {content: "Aiming for progress";}
+
+/* ========================================================================= */

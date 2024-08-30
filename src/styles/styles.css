@@ -6,7 +6,13 @@
 @import 'common/viewport.css';
 
 @import 'media/desktop.css';
-@import 'texts/rus.css';
+@import 'media/desktop.css';
+
+@import 'texts/eng/common.css';
+@import 'texts/eng/data.css';
+
+@import 'texts/rus/common.css';
+@import 'texts/rus/data.css';
 
 /* color pallette */
 

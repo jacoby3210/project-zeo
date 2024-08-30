@@ -1,0 +1,11 @@
+/* ========================================================================= */
+/* user data */
+/* ========================================================================= */
+
+.project-caption::after 		{content: "Проект"}
+.project-description::after {content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt iure dolorum saepe laborum quod excepturi eius harum perferendis distinctio obcaecati unde, quasi voluptatem, deserunt officiis quia omnis est dolorem?"}
+.project-feature-00::after 	{content: "Платформа для туроператоров и поставщиков услуг, позволяющая управлять предложениями, клиентами, заказами и сотрудничеством с агентами."}
+.project-feature-01::after 	{content: "Платформа для туроператоров и поставщиков услуг, позволяющая управлять предложениями, клиентами, заказами и сотрудничеством с агентами."}
+.project-feature-02::after 	{content: "Платформа для туроператоров и поставщиков услуг, позволяющая управлять предложениями, клиентами, заказами и сотрудничеством с агентами."}
+
+/* ========================================================================= */
