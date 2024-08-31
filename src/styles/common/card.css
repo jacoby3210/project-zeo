@@ -44,14 +44,15 @@
 	color: var(--color-accent);
 }
 
-.card-pages-input {
+.card-navigation-input {
 
 }
 
-.card-pages-label {
-	display: inline-block;
+.card-navigation-label {
+	display: flex;
 	cursor: pointer;
 	padding: 1px 0px;
+	align-items: center;
 }
 
 .card-social-networks-nav {

@@ -9,7 +9,7 @@ html:lang(ru) .card-bio-p0::after           			{content: "Приветствую
 html:lang(ru) .card-bio-p1::after         	 			{content: "Меня зовут Джон Доу.";}
 html:lang(ru) .card-bio-p2::after       	    		{content: "Я являюсь веб-разработчиком и специалистом в области UI/UX.";}
 html:lang(ru) .card-education h3::after						{content: "Образование";}
-html:lang(ru) .card-pages > h3::after  						{content: "Навигация";}
+html:lang(ru) .card-navigation > h3::after  			{content: "Навигация";}
 html:lang(ru) .card-social-networks h3::after 		{content: "Социальные сети"}
 
 html:lang(ru) [for="pg-0"]::after 								{content: "Навыки";}

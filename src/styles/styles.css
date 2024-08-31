@@ -1,4 +1,6 @@
 /* import */
+@import 'base/radio.css';
+
 @import 'common/card.css';
 @import 'common/details.css';
 @import 'common/loader.css';
