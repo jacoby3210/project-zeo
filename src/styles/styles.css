@@ -1,4 +1,5 @@
 /* import */
+@import 'base/checkbox.css';
 @import 'base/radio.css';
 
 @import 'common/card.css';
@@ -19,23 +20,25 @@
 /* color pallette */
 
 html {
-	--color-accent:    #55ffb5;
-	--color-button:    #c44f4b;
+	--color-accent:    		#55ffb5;
+	--color-accent-light: #55ffb56b;
+	--color-button:    		#c44f4b;
 
-	--color-loader:    #000000;
-	--color-menu:      #0a1833;
-	--color-priority:  #a7bfcbba;
-	--color-secondary: #c2cbeb;
+	--color-loader:    		#000000;
+	--color-menu:     	 	#0a1833;
+	--color-priority: 		#a7bfcbba;
+	--color-secondary: 		#c2cbeb;
 }
 
 html:has(.card-advanced-control-theme-input:checked) {
-	--color-accent:    #ef4141;
-	--color-button:    #096c5f;
+	--color-accent:    		#ef4141;
+	--color-accent-light: #ef41416b;
+	--color-button:    		#096c5f;
 
-	--color-loader:	   #000000;
-	--color-menu:      #0a1833;
-	--color-priority:  #8e99b7ba;
-	--color-secondary: #ffffff;
+	--color-loader:			  #000000;
+	--color-menu:      		#0a1833;
+	--color-priority:  		#8e99b7ba;
+	--color-secondary: 		#ffffff;
 }
 
 body {background-image: url(../assets/bg.jpg);}
