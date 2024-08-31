@@ -1,0 +1,25 @@
+@media screen and (max-width: 500px) {
+	.loader {background-color: var(--color-menu);}
+	.loader::before {border: 5px solid var(--color-accent); border-top-color: transparent;}
+	
+	.viewport {width: 100dvw;}
+	.viewport.loaded {display: block;}
+	.tab {display: flex; flex-direction: column; margin: 20px;}
+	
+	.card {
+		box-sizing: border-box;
+		padding: 0px 30px; height: 100dvh;
+		text-align: center;
+	}
+		.card-about-navigation {display: none;}
+		.card-advanced-control {padding: 10px 0px;}
+	
+	.details h3 { margin: 10px 0px; }
+	.personal, .professional {margin: 0;}
+		.skills-entry { flex-wrap: wrap;}
+
+		.project picture {display: none;}
+		.project-summary {gap: 10px; width: max-content;}
+		.project-menu{gap: 20px;}
+		.project-menu-button {width: calc(50% - 10px)}
+}

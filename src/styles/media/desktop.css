@@ -56,7 +56,6 @@
 
 	.tab-content > * { float: right; width: 1000px; }
 	.project-list {height: calc(90dvh - 133px);}
-	.project {margin-right: 30px; gap: 10px;}
 	
 
 }
