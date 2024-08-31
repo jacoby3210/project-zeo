@@ -20,20 +20,20 @@
 } 
 
 [type='radio']:not(:disabled):not(:checked)+label:hover::before {
-	border-color: #55ffb56b;
+	border-color: var(--color-accent-light);
 }  
 
 [type='radio']:not(:disabled):active+label::before {
-	background-color: #55ffb56b;
-	border-color: #55ffb56b;
+	background-color: var(--color-accent-light);
+	border-color: var(--color-accent-light);
 }
 
-/* [type='radio']:focus+label::before {
-	box-shadow: 0 0 0 0.2rem #55ffb56b;
-}  */
+[type='radio']:focus+label::before {
+	box-shadow: 0 0 0 0.1rem var(--color-accent-light);
+}
 
 [type='radio']:focus:not(:checked)+label::before {
-	border-color: #55ffb56b;
+	border-color: var(--color-accent-light)
 }
 
 [type='radio']:checked+label::before {
